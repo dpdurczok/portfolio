@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3fdbab34.css",
+    "main.js": "/portfolio/static/js/main.d772344f.js",
+    "static/media/bee.png": "/portfolio/static/media/bee.f881d151db4c83115c47.png",
+    "static/media/micro.png": "/portfolio/static/media/micro.2a647d8b559fe749d926.png",
+    "static/media/crystals.png": "/portfolio/static/media/crystals.a11800f442dac207c755.png",
+    "static/media/towel.png": "/portfolio/static/media/towel.3ef9a0de179f3fa8b7ef.png",
+    "static/media/ShangriLa.png": "/portfolio/static/media/ShangriLa.4b59ca5ab2ccadfa78f5.png",
+    "static/media/dinobones.png": "/portfolio/static/media/dinobones.14b9a93a3da995b4bcbb.png",
+    "static/media/wine.png": "/portfolio/static/media/wine.bff7a01656c53399b842.png",
+    "static/media/coffee.png": "/portfolio/static/media/coffee.507ea38f2318e0d39f23.png",
+    "static/media/baterry.png": "/portfolio/static/media/baterry.fa696a39fb6838d6b6ae.png",
+    "static/media/kitchen.png": "/portfolio/static/media/kitchen.d40dab4a76d2dfcf7a87.png",
+    "static/media/chains.png": "/portfolio/static/media/chains.e5ceade7adf38d806b86.png",
+    "static/media/car.png": "/portfolio/static/media/car.0c84185ace3aa69d8604.png",
+    "static/media/jellyrender.png": "/portfolio/static/media/jellyrender.3319c323f9546d2a73da.png",
+    "static/media/MovementMouse.png": "/portfolio/static/media/MovementMouse.3c14fec52bc80e1a5aab.png",
+    "static/media/earth.png": "/portfolio/static/media/earth.3ed128d9e7d10e9699a4.png",
+    "static/media/earth2.png": "/portfolio/static/media/earth2.e1ec98d99b05bfb2ed07.png",
+    "static/media/movienight.png": "/portfolio/static/media/movienight.0a643c95c5e4fc6ec5b4.png",
+    "static/media/terminator.png": "/portfolio/static/media/terminator.b98c42bcbd8cb6602768.png",
+    "static/media/ramen.png": "/portfolio/static/media/ramen.0eee0ecfd188d8cd9abf.png",
+    "static/media/luckofthedraw.png": "/portfolio/static/media/luckofthedraw.3f3faebf536a2eee12df.png",
+    "static/media/emmett.png": "/portfolio/static/media/emmett.a6096ef5d321a41f29e4.png",
+    "static/media/john.jpeg": "/portfolio/static/media/john.3252791f8fcff82847d9.jpeg",
+    "static/media/eternalkatanaslam.png": "/portfolio/static/media/eternalkatanaslam.b177c881a817c0cd31de.png",
+    "index.html": "/portfolio/index.html",
+    "main.3fdbab34.css.map": "/portfolio/static/css/main.3fdbab34.css.map",
+    "main.d772344f.js.map": "/portfolio/static/js/main.d772344f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fdbab34.css",
+    "static/js/main.d772344f.js"
+  ]
+}
