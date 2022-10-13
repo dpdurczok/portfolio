@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Art, Games, Projects, Header} from '../containers';
-import { Navbar, CTA } from '../components'
+import { Navbar } from '../components'
 
 const Main = () => {
   return (
@@ -13,7 +13,6 @@ const Main = () => {
         <Art />
         <Games />
         <Projects />
-        <CTA />
     </div>
   )
 }

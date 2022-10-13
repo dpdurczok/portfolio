@@ -13,7 +13,6 @@ function App(){
       <Routes>
         <Route path="/artgal" element={<ArtGal/>} />
         <Route path="/chains" element={<Chains/>} />
-        <Route path="/#art" element={<Main/>} />
         <Route path="*" element={<Main/>} />
       </Routes>
     </>

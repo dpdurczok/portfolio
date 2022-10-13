@@ -1,28 +1,29 @@
 .prt__games{
     display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
 }
 
-.prt__games-content{
-    flex: 1;
-    display: inline;
-    justify-content: center;
-    align-items: flex-stgames;
-    flex-direction: column;
+.prt__games-heading{
+    width:100%;
+    text-align: left;
 
-
+    margin-bottom: 1rem;
     background-color: var(--color-footer);
 }
 
-.prt__games-content h1{
+.prt__games-heading h1{
     font-family: var(--font-family);
+    font-size: normal;
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
-    letter-spacing: -0.04em;
     margin: 2rem;
+
+    letter-spacing: -0.04em;
 }
 
-.prt__games-content p{
+.prt__games-heading p{
     font-family: var(--font-family);
 
     font-size: normal;
@@ -30,59 +31,25 @@
     font-size: 20px;
     line-height: 27px;
     color: var(--color-text);
-
     margin: 1.5rem;
+   
 }
 
-.prt__games-content__images-domain{
-
+.prt__games-container{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.prt__games-content__images h1{
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 75px;
-    letter-spacing: -0.04em;
-    margin-top: 2rem;
-    margin-bottom: 0;
-    color: #fff;
-}
-
-.prt__games-content__images-domain img{
-    margin-left: 3rem;
-    height: 200px;
-    width: 200px;
-}
-.prt__games-content__images-domain button{
-    cursor: pointer;
-    padding: 1rem;
-    background-color: var(--color-footer);
-    color: var(--color-text);
-    border-color: var(--color-text);
-
-    margin: 1rem 3rem;
-    max-width: 80px;
-    max-height: 80px;
-}
-
-.prt__games-content__images-domain p{
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2rem;
 }
 
 
-
-@media screen and (max-width: 1050px){
-    .prt__games-content__images-domain{
-        flex-direction: column;
-    }
-
-    .prt__games-content__images-domain Button{
-        max-width: 120px;
+@media screen and (min-width:1440px){
+    .prt__games-container{
+        grid-template-columns: repeat(4, 1fr);
+        
     }
 }
 
@@ -96,14 +63,9 @@
     .prt__games p{
         font-size: 16px;
         line-height: 24px;
-        margin-top: 0;
     }
-
-    .prt__games-content__images-domain img{
-        height: 150px;
-        width: 150px;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+    .prt__games-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -117,4 +79,6 @@
         font-size: 14px;
         line-height: 24px;
     }
+
+
 }
