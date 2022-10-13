@@ -19,7 +19,7 @@ const Art = () => {
           </div>
           
           <div className="prt__art-content__expand">
-            <a href="/artgal"><button>View more</button></a>
+            <a href="/portfolio/#/artgal"><button>View more</button></a>
           </div>
         </div>
     </div>
