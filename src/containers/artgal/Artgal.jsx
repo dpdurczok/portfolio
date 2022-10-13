@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "./artgal.css"
 import { AiOutlineArrowLeft } from "react-icons/ai"
-import {useNavigate} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Art1 from '../../assets/ArtGalPhotos/baterry.png';
 import Art2 from '../../assets/ArtGalPhotos/bee.png';
@@ -47,7 +47,7 @@ class Artgal extends Component{
         return(
             <div>
                 <div className="back">
-                    <a href="/"> back </a> 
+                    <Link to="/">back</Link>
                 </div>     
                 <div className="Images">      
                     {images}
