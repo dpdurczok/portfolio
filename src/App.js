@@ -11,9 +11,9 @@ function App(){
   return(
     <>
       <Routes>
-        <Route path="/portfolio/" element={<Main/>} />
-        <Route path="/portfolio/artgal" element={<ArtGal/>} />
-        <Route path="/portfolio/chains" element={<Chains/>} />
+        <Route path="/" element={<Main/>} />
+        <Route path="/artgal" element={<ArtGal/>} />
+        <Route path="/chains" element={<Chains/>} />
       </Routes>
     </>
   )

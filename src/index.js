@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 import './index.css';
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <React.StrictMode>
+        <HashRouter>
+        <App />
+        </HashRouter>
+    </React.StrictMode>
+
 )
