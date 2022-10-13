@@ -4,6 +4,9 @@ import bee from '../../assets/bee.png';
 import chains from '../../assets/jellyrender.png';
 import kitchen from '../../assets/kitchen.png';
 
+
+import { Link } from 'react-router-dom';
+
 const Art = () => {
   return (
     <div className="prt__art section__margin" id="art">  
@@ -19,7 +22,8 @@ const Art = () => {
           </div>
           
           <div className="prt__art-content__expand">
-            <a href="/portfolio/#/artgal"><button>View more</button></a>
+            <a><button><Link to="/artgal">View more</Link></button></a>
+            
           </div>
         </div>
     </div>
