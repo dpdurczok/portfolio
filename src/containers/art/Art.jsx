@@ -22,8 +22,8 @@ const Art = () => {
           </div>
           
           <div className="prt__art-content__expand">
-            <a><button><Link to="/artgal">View more</Link></button></a>
             
+            <Link to="/artgal"><button>Learn more</button></Link>
           </div>
         </div>
     </div>

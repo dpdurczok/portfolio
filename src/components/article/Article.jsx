@@ -7,7 +7,7 @@ const Cta = ({ imgUrl, title, paragraph, link, linktext}) => {
   return (
     <div className="prt__game-container_article">  
         <div className="prt__game-container_article-image">
-          <img src={imgUrl} alt="blog" />
+          <img src={imgUrl} alt="img" />
         </div>
         <div className='prt__game-container_article-content'>
           <div>
