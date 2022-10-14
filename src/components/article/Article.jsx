@@ -1,8 +1,9 @@
 import React from 'react'
 import './article.css'
+import { Link } from "react-router-dom"
 
 
-const Cta = ({ imgUrl, title, paragraph }) => {
+const Cta = ({ imgUrl, title, paragraph, link, linktext}) => {
   return (
     <div className="prt__game-container_article">  
         <div className="prt__game-container_article-image">
@@ -15,7 +16,7 @@ const Cta = ({ imgUrl, title, paragraph }) => {
             </h3>
             <p>{paragraph}</p>
           </div>
-          <p className='prt__game-container_article-content_learnmore'>Learn More</p>
+          <Link to={link} className='prt__game-container_article-content_learnmore'  >{linktext}</Link>
         </div>
     </div>
   )
