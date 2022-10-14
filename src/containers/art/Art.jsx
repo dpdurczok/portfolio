@@ -23,7 +23,7 @@ const Art = () => {
           
           <div className="prt__art-content__expand">
             
-            <Link to="/artgal"><button>Learn more</button></Link>
+            <Link to="/artgal"><button>View More</button></Link>
           </div>
         </div>
     </div>

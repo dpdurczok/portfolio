@@ -9,8 +9,8 @@ const Main = () => {
         <div className="gradient__bg">
             <Navbar />
             <Header 
-              title="Who am I? and what do i do?" 
-              paragraph="I'm a self-tought indie game developer that uses unity and blender to create my games. I specialize in creating models, animating and creating characters and writing shaders. In my spare time i create renders in blender cycles or eevee."/>
+              title="Who am I? and what do I do?" 
+              paragraph="I'm a self-tought indie game developer that uses unity and blender to create my games. I specialize in creating models, animating and creating characters and writing shaders. In my spare time I create renders in blender cycles or eevee."/>
         </div>
         <Art />
         <Games />
