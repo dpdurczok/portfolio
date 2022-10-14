@@ -11,18 +11,18 @@ const StyleChains = () => {
         <p>This game has a low poly style to be able to mass produce a large amount of models. There are entire cities, islands and forests.</p>
       </div>
       <div className="prt__styleChains-container">
-          <Article imgUrl={img01} link="/chains" title="Cities" paragraph="An open-world img where you explore a whole world suspended in the sky, completing missions and discovering your past"/>
-          <Article imgUrl={img02} link="/emmett" title="Witch Houses" paragraph="this is Emmett"/>
-          <Article imgUrl={img03} link="/lotd" title="Playgrounds" paragraph="this is "/>
-          <Article imgUrl={img04} link="/eks" title="Ancient Ruins" paragraph="this is "/>
-          <Article imgUrl={img05} link="/chains" title="Lakes" paragraph="An open-world img where you explore a whole world suspended in the sky, completing missions and discovering your past"/>
-          <Article imgUrl={img06} link="/emmett" title="Caves" paragraph="this is Emmett"/>
-          <Article imgUrl={img07} link="/lotd" title="Mysteries" paragraph="this is "/>
-          <Article imgUrl={img08} link="/eks" title="Dumps" paragraph="this is "/>
-          <Article imgUrl={img09} link="/chains" title="Ships" paragraph="An open-world img where you explore a whole world suspended in the sky, completing missions and discovering your past"/>
-          <Article imgUrl={img10} link="/emmett" title="Water Falls" paragraph="this is Emmett"/>
-          <Article imgUrl={img11} link="/lotd" title="Beaches" paragraph="this is "/>
-          <Article imgUrl={img12} link="/eks" title="Bigger Caves" paragraph="this is "/>
+          <Article imgUrl={img01} link="/chains" title="Cities" paragraph="Buy, Sell, Explore. These places are booming with life and shops. Players would find themself's here to find quests and buy upgrades"/>
+          <Article imgUrl={img02} link="/emmett" title="Witch Houses" paragraph="Be careful of the Witch! somehow she's in every city, no matter where you go!, but always make sure to visit her as she has plenty good things to offer!"/>
+          <Article imgUrl={img03} link="/lotd" title="Playgrounds" paragraph="Enjoy the lively parts of the city where all of the children gather to play arround!"/>
+          <Article imgUrl={img04} link="/eks" title="Ancient Ruins" paragraph="Explore these areas to learn about the ancient world of chains"/>
+          <Article imgUrl={img05} link="/chains" title="Fisherman" paragraph="Meet the kind fisherman that is always happy to give you a helping hand :)"/>
+          <Article imgUrl={img06} link="/emmett" title="Caves" paragraph="Go deep underground to uncover deep secrets!"/>
+          <Article imgUrl={img07} link="/lotd" title="Secrets in Caves" paragraph="These are the secrets in the caves"/>
+          <Article imgUrl={img08} link="/eks" title="Band Outpost" paragraph="Be carefull of these areas! These places are crawling with not so kind people."/>
+          <Article imgUrl={img09} link="/chains" title="Ships" paragraph="Your main method of transportation through skyies!"/>
+          <Article imgUrl={img10} link="/emmett" title="Water Falls" paragraph="Enjoy the beautiful nature of Chains"/>
+          <Article imgUrl={img11} link="/lotd" title="Beaches" paragraph="Take a break, relax and take in the wonders of an extraordinary flying beach!"/>
+          <Article imgUrl={img12} link="/eks" title="Bigger Caves" paragraph="Go through deep caves to uncover ancient items!"/>
       </div>
     </div>
    ) 

@@ -10,34 +10,34 @@ const Artgal = () => {
     return (
         <div className="prt__artgal section__margin">
             <div className="prt__artgal-container">
-                <Article imgUrl={img01} link="/" title="Kitchen" paragraph=""/>
-                <Article imgUrl={img02} link="/" title="Bee" paragraph=""/>
-                <Article imgUrl={img03} link="/" title="John" paragraph=""/>
-                <Article imgUrl={img04} link="/" title="Sky Adventures" paragraph=""/>
-                <Article imgUrl={img05} link="/" title="Morning sip" paragraph=""/>
-                <Article imgUrl={img06} link="/" title="Shiny!" paragraph=""/>
-                <Article imgUrl={img07} link="/" title="A Lost Battery" paragraph=""/>
-                <Article imgUrl={img08} link="/" title="Jelly Dance" paragraph=""/>
-                <Article imgUrl={img09} link="/" title="Dry Bones" paragraph=""/>
-                <Article imgUrl={img10} link="/" title="View" paragraph=""/>
-                <Article imgUrl={img11} link="/" title="Headlights" paragraph=""/>
-                <Article imgUrl={img12} link="/" title="Broken" paragraph=""/>
-                <Article imgUrl={img13} link="/" title="Mandle Adventure" paragraph=""/>
-                <Article imgUrl={img14} link="/" title="Movement Mouse" paragraph=""/>
-                <Article imgUrl={img15} link="/" title="The Ramen" paragraph=""/>
-                <Article imgUrl={img16} link="/" title="Movie Night" paragraph=""/>
-                <Article imgUrl={img17} link="/" title="Shangri-la" paragraph=""/>
-                <Article imgUrl={img18} link="/" title="Bathroom" paragraph=""/>
-                <Article imgUrl={img19} link="/" title="Two Towels" paragraph=""/>
-                <Article imgUrl={img20} link="/" title="Graveyard" paragraph=""/>
-                <Article imgUrl={img21} link="/" title="Romantic Evening" paragraph=""/>
-                <Article imgUrl={img22} link="/" title="Sunset" paragraph=""/>
-                <Article imgUrl={img23} link="/" title="WTF idk" paragraph=""/>
-                <Article imgUrl={img24} link="/" title="ChromeBall" paragraph=""/>
-                <Article imgUrl={img25} link="/" title="Backdoors" paragraph=""/>
-                <Article imgUrl={img26} link="/" title="Bedroom" paragraph=""/>
-                <Article imgUrl={img27} link="/" title="Harcmagedon" paragraph=""/>
-                <Article imgUrl={img28} link="/" title="Slow-Mo Bullet Shot" paragraph=""/>
+                <Article imgUrl={img01} link="/" title="Kitchen" paragraph="2016"/>
+                <Article imgUrl={img02} link="/" title="Bee" paragraph="2021"/>
+                <Article imgUrl={img03} link="/" title="John" paragraph="2020"/>
+                <Article imgUrl={img04} link="/" title="Sky Adventures" paragraph="2021"/>
+                <Article imgUrl={img05} link="/" title="Morning sip" paragraph="2020"/>
+                <Article imgUrl={img06} link="/" title="Shiny!" paragraph="2018"/>
+                <Article imgUrl={img07} link="/" title="A Lost Battery" paragraph="2020"/>
+                <Article imgUrl={img08} link="/" title="Jelly Dance" paragraph="2020"/>
+                <Article imgUrl={img09} link="/" title="Dry Bones" paragraph="2020"/>
+                <Article imgUrl={img10} link="/" title="View" paragraph="2019"/>
+                <Article imgUrl={img11} link="/" title="Headlights" paragraph="2020"/>
+                <Article imgUrl={img12} link="/" title="Broken" paragraph="2020"/>
+                <Article imgUrl={img13} link="/" title="Mandle Adventure" paragraph="2020"/>
+                <Article imgUrl={img14} link="/" title="Movement Mouse" paragraph="2020"/>
+                <Article imgUrl={img15} link="/" title="The Ramen" paragraph="2021"/>
+                <Article imgUrl={img16} link="/" title="Movie Night" paragraph="2020"/>
+                <Article imgUrl={img17} link="/" title="Shangri-la" paragraph="2016"/>
+                <Article imgUrl={img18} link="/" title="Bathroom" paragraph="2019"/>
+                <Article imgUrl={img19} link="/" title="Two Towels" paragraph="2019"/>
+                <Article imgUrl={img20} link="/" title="Graveyard" paragraph="2017"/>
+                <Article imgUrl={img21} link="/" title="Romantic Evening" paragraph="2020"/>
+                <Article imgUrl={img22} link="/" title="Sunset" paragraph="2017"/>
+                <Article imgUrl={img23} link="/" title="WTF idk" paragraph="2020"/>
+                <Article imgUrl={img24} link="/" title="ChromeBall" paragraph="2020"/>
+                <Article imgUrl={img25} link="/" title="Backdoors" paragraph="2016"/>
+                <Article imgUrl={img26} link="/" title="Bedroom" paragraph="2018"/>
+                <Article imgUrl={img27} link="/" title="Harcmagedon" paragraph="2018"/>
+                <Article imgUrl={img28} link="/" title="Slow-Mo Bullet Shot" paragraph="2017"/>
             </div>
       </div>
       )
