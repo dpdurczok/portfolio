@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\article",
+    "\\src\\components\\navbar",
+    "\\src\\containers",
+    "\\src\\containers\\commissions",
+    "\\src\\pages"
+  ],
+  "SelectedNode": "\\src\\containers\\commissions\\Commissions.jsx",
+  "PreviewInSolutionExplorer": true
+}
