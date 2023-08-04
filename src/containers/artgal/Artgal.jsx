@@ -47,4 +47,4 @@ const Artgal = () => {
       )
   }
 
-export default Artgal
+export default Artgal 

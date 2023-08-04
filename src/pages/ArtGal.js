@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Artgal } from '../containers';
-import { Navbar, Header } from "../components"
+import { Navbar, Header } from "../components";
 
 const ArtGal = () => {
   return (

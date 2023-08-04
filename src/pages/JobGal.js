@@ -15,4 +15,5 @@ const JobGal = () => {
   )
 }
 
+
 export default JobGal

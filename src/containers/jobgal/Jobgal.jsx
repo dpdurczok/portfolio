@@ -2,7 +2,7 @@ import React from 'react';
 import './Jobgal.css';
 import { Article } from '../../components';
 
-import images from '../../assets/JobGalPhotos'; // Import the images array
+import images from '../../assets/JobGalPhotos'; // Import the images array 
 import videos from '../../assets/JobGalVideos'; // Import the videos array
 
 const Jobgal = () => {
