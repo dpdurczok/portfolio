@@ -8,7 +8,7 @@ const JobGal = () => {
     <div className="App">
         <div className="gradient__bg">
               <Navbar/>
-              <Header title="My Jobs" paragraph="Here are all my commissions i worked on for company's"/>
+              <Header title="Professional Projects" paragraph="Here are all my commissions i worked on for my clients"/>
         </div>
         <Jobgal />
     </div>

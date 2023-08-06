@@ -12,8 +12,10 @@ const Art = () => {
     <div className="prt__art section__margin" id="art">  
         <div className="prt__art-content">
           
-          <h1 className="gradient__text"> MY ART </h1>
-          <p>These are renders i made within blender during my spare time, everything seen is hand made by me, textures are downloaded from websites such as: Textures.com or Poliigon</p>
+          <h1 className="gradient__text"> Artistic Creations </h1>
+          <p>This gallery features a collection of my handcrafted renders made within Blender 
+          during my personal artistic explorations. 
+          All the textures used are sourced from reputable websites like Textures.com or Poliigon.</p>
           
           <div className="prt__art-content__images">
             <div className="prt__art-content__images-domain"><img src={bee} alt=""/></div>

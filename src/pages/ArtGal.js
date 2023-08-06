@@ -8,7 +8,7 @@ const ArtGal = () => {
     <div className="App">
         <div className="gradient__bg">
               <Navbar/>
-              <Header title="My Art" paragraph="Here are most of my artisctic works"/>
+              <Header title="Artistic Creations" paragraph="Here are most of my artisctic works"/>
         </div>
         <Artgal />
     </div>

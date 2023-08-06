@@ -12,8 +12,11 @@ const Commissions = () => {
     <div className="prt__art section__margin" id="art">  
         <div className="prt__art-content">
           
-          <h1 className="gradient__text"> MY JOBS </h1>
-          <p>These are renders i made within blender for company's as payed work</p>
+          <h1 className="gradient__text"> Professional Projects </h1>
+          <p>In this section, you'll find Blender renders created for various clients. 
+          These projects allowed me to apply my skills and artistic touch 
+          to meet the unique needs of each client, 
+          resulting in satisfying outcomes.</p>
           
           <div className="prt__art-content__images">
             <div className="prt__art-content__images-domain"><img src={EyeSpill} alt=""/></div>

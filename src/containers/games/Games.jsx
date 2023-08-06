@@ -7,8 +7,10 @@ const Games = () => {
   return (
     <div className="prt__games section__margin" id="games"> {/* Add the ID "games" to enable smooth scrolling */}
       <div className='prt__games-heading'>
-        <h1 className="gradient__text"> MY GAMES </h1>
-        <p>Here you will find all of the games that I have made, some are refined and complete... and some not so much.</p>
+        <h1 className="gradient__text"> Game Development Portfolio </h1>
+        <p>Explore my range of games, some of which are refined and complete, 
+        while others are still in development. 
+        Each game reflects my passion for game development and my constant pursuit of improvement.</p>
       </div>
       <div className="prt__games-container">
         <Article imgUrl={game01} link="/chains" linktext="Learn More" title="Chains" paragraph="An open-world game where you explore a whole world suspended in the sky, completing missions and discovering your past" />
