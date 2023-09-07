@@ -9,6 +9,9 @@ const Article = ({ imgUrl, title, paragraph, link, linktext, vidUrl }) => {
     setShowVideo(!showVideo);
   };
 
+  // Check if the link is an external URL (starts with http or https)
+  const isExternalLink = /^https?:\/\//.test(link);
+
   return (
     <div className="prt__game-container_article">
       <div className="prt__game-container_article-image">
@@ -19,15 +22,28 @@ const Article = ({ imgUrl, title, paragraph, link, linktext, vidUrl }) => {
           <h3>{title}</h3>
           <p>{paragraph}</p>
         </div>
-        <Link
-          to={link}
-          className={`prt__game-container_article-content_learnmore ${
-            vidUrl ? 'prt__game-container_article-content_watch-animation' : ''
-          }`}
-          onClick={() => vidUrl && toggleVideo()} // Check if vidUrl exists, then toggle video
-        >
-          {linktext}
-        </Link>
+        {isExternalLink ? (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`prt__game-container_article-content_learnmore ${
+              vidUrl ? 'prt__game-container_article-content_watch-animation' : ''
+            }`}
+          >
+            {linktext}
+          </a>
+        ) : (
+          <Link
+            to={link}
+            className={`prt__game-container_article-content_learnmore ${
+              vidUrl ? 'prt__game-container_article-content_watch-animation' : ''
+            }`}
+            onClick={() => vidUrl && toggleVideo()}
+          >
+            {linktext}
+          </Link>
+        )}
       </div>
       {showVideo && vidUrl && (
         <div className="fullscreen-video">

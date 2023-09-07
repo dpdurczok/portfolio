@@ -3,19 +3,26 @@ import "./artgal.css"
 import { Article } from "../../components";
 
 import images from '../../assets/ArtGalPhotos'; // Import the images array
+import videos from '../../assets/ArtGalVideos'; // Import the videos array
 
 const Artgal = () => {
     return (
         <div className="prt__artgal section__margin">
             <div className="prt__artgal-container">
+
                 <Article imgUrl={images[6]} link="/" title="A Lost Battery" paragraph="2020"/>
                 <Article imgUrl={images[7]} link="/" title="Jelly Dance" paragraph="2020"/>
                 <Article imgUrl={images[8]} link="/" title="Dry Bones" paragraph="2020"/>
                 <Article imgUrl={images[1]} link="/" title="Bee" paragraph="2021"/>
 
+                <Article imgUrl={images[28]} vidUrl={videos[0]}
+                title="BossFight" paragraph="2023" linktext="Watch Animation"/>
+                <Article imgUrl={images[12]} link="/" title="Mandle Adventure" paragraph="2020"/>
+                
+
                 <Article imgUrl={images[0]} link="/" title="Kitchen" paragraph="2016"/>
                 <Article imgUrl={images[17]} link="/" title="Bathroom" paragraph="2019"/>
-                <Article imgUrl={images[23]} link="/" title="ChromeBall" paragraph="2020"/>
+                <Article imgUrl={images[23]} link="/" title="Dead Deserts" paragraph="2020"/>
                 <Article imgUrl={images[3]} link="/" title="Sky Adventures" paragraph="2021"/>
 
                 <Article imgUrl={images[4]} link="/" title="Morning sip" paragraph="2020"/>
@@ -34,7 +41,7 @@ const Artgal = () => {
                 <Article imgUrl={images[19]} link="/" title="Graveyard" paragraph="2017"/>
 
                 <Article imgUrl={images[11]} link="/" title="Broken" paragraph="2019"/>
-                <Article imgUrl={images[12]} link="/" title="Mandle Adventure" paragraph="2020"/>
+                
                 <Article imgUrl={images[13]} link="/" title="Movement Mouse" paragraph="2020"/>
                 <Article imgUrl={images[9]} link="/" title="View" paragraph="2019"/>
 

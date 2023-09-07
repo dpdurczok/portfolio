@@ -6,8 +6,11 @@
     "\\src\\components\\article",
     "\\src\\components\\navbar",
     "\\src\\containers",
-    "\\src\\containers\\commissions",
+    "\\src\\containers\\artgal",
+    "\\src\\containers\\games",
+    "\\src\\containers\\jobgal",
     "\\src\\pages"
   ],
+  "SelectedNode": "\\src\\components\\navbar\\Navbar.jsx",
   "PreviewInSolutionExplorer": true
 }

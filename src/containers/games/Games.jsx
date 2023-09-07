@@ -1,7 +1,7 @@
 import React from 'react';
 import './games.css';
 import { Article } from "../../components";
-import { game01, game02, game03, game04 } from "./imports";
+import { game01, game02, game03, game04, game05 } from "./imports";
 
 const Games = () => {
   return (
@@ -14,9 +14,10 @@ const Games = () => {
       </div>
       <div className="prt__games-container">
         <Article imgUrl={game01} link="/chains" linktext="Learn More" title="Chains" paragraph="An open-world game where you explore a whole world suspended in the sky, completing missions and discovering your past" />
-        <Article imgUrl={game02} link="/emmett" linktext="Learn More" title="Emmett" paragraph="this is Emmett" />
-        <Article imgUrl={game03} link="/lotd" linktext="Learn More" title="Luck Of The Draw" paragraph="this is Luck Of The Draw" />
-        <Article imgUrl={game04} link="/eks" linktext="Learn More" title="Eternal Katana Slam" paragraph="this is Eternal Katana Slam" />
+        <Article imgUrl={game05} link="https://boxstudios.itch.io/deep-stone" linktext="Learn More" title="Deep Stone Cosmic" paragraph="A game jam entry" />
+        <Article imgUrl={game02} link="https://boxstudios.itch.io/emmett" linktext="Learn More" title="Emmett" paragraph="this is Emmett" />
+        <Article imgUrl={game03} link="https://boxstudios.itch.io/luck-of-the-draw" linktext="Learn More" title="Luck Of The Draw" paragraph="this is Luck Of The Draw" />
+        <Article imgUrl={game04} link="https://boxstudios.itch.io/eternal-katana-slam" linktext="Learn More" title="Eternal Katana Slam" paragraph="this is Eternal Katana Slam" />
       </div>
     </div>
   );
