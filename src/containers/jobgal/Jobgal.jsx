@@ -17,6 +17,10 @@ const Jobgal = () => {
           title="PianoLamps" paragraph="2023" linktext="Watch Animation"
         />
         <Article
+          imgUrl={images[16]} vidUrl={videos[14]} 
+          title="SailingLED's'" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
           imgUrl={images[1]}
           title="Doors" paragraph="2023"
         />
@@ -45,6 +49,10 @@ const Jobgal = () => {
           title="Vines" paragraph="2023" linktext="Watch Animation"
         />
         <Article
+          imgUrl={images[14]} vidUrl={videos[12]} 
+          title="CubeSim" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
           imgUrl={images[8]} vidUrl={videos[6]} 
           title="SingingLily" paragraph="2023" linktext="Watch Animation"
         />
@@ -67,10 +75,6 @@ const Jobgal = () => {
         <Article
           imgUrl={images[13]} vidUrl={videos[11]} 
           title="Starway to Heaven" paragraph="2023" linktext="Watch Animation"
-        />
-        <Article
-          imgUrl={images[14]} vidUrl={videos[12]} 
-          title="CubeSim" paragraph="2023" linktext="Watch Animation"
         />
         <Article
           imgUrl={images[15]} vidUrl={videos[13]} 
