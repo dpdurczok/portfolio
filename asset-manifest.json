@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e67f411a.css",
-    "main.js": "/portfolio/static/js/main.6d41a2e9.js",
+    "main.js": "/portfolio/static/js/main.dc50cd4c.js",
     "static/media/VID_04.mp4": "/portfolio/static/media/VID_04.4bb9fd3cab7351d60f35.mp4",
     "static/media/VID_13.mp4": "/portfolio/static/media/VID_13.598dfeb0ed9fb86fca45.mp4",
+    "static/media/VID_15.mp4": "/portfolio/static/media/VID_15.8c3a05d907f670cce501.mp4",
     "static/media/bee.png": "/portfolio/static/media/bee.f881d151db4c83115c47.png",
     "static/media/img27.png": "/portfolio/static/media/img27.06855293f990c0dc973a.png",
     "static/media/VID_01.mp4": "/portfolio/static/media/VID_01.139406247e6593e53c7e.mp4",
-    "static/media/img17.png": "/portfolio/static/media/img17.9e9753572e14a91aebde.png",
+    "static/media/img17.png": "/portfolio/static/media/img17.e53414753bd64b8a6ec5.png",
     "static/media/VID_02.mp4": "/portfolio/static/media/VID_02.741ea32504df6979c7d6.mp4",
     "static/media/PianoLamps.png": "/portfolio/static/media/PianoLamps.f0621c139ca6396a754a.png",
     "static/media/InfinityPool.png": "/portfolio/static/media/InfinityPool.2c7b5c4cffb695d8eff2.png",
@@ -84,10 +85,10 @@
     "static/media/DeepStoneCosmic.png": "/portfolio/static/media/DeepStoneCosmic.f57dc727124f659a2b1a.png",
     "index.html": "/portfolio/index.html",
     "main.e67f411a.css.map": "/portfolio/static/css/main.e67f411a.css.map",
-    "main.6d41a2e9.js.map": "/portfolio/static/js/main.6d41a2e9.js.map"
+    "main.dc50cd4c.js.map": "/portfolio/static/js/main.dc50cd4c.js.map"
   },
   "entrypoints": [
     "static/css/main.e67f411a.css",
-    "static/js/main.6d41a2e9.js"
+    "static/js/main.dc50cd4c.js"
   ]
 }
