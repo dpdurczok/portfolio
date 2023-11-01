@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\JobGalPhotos",
     "\\src\\components",
-    "\\src\\components\\article",
     "\\src\\components\\navbar",
     "\\src\\containers",
     "\\src\\containers\\artgal",
@@ -11,6 +12,6 @@
     "\\src\\containers\\jobgal",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\article\\Article.jsx",
+  "SelectedNode": "\\src\\assets\\JobGalPhotos\\index.js",
   "PreviewInSolutionExplorer": true
 }

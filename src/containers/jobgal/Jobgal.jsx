@@ -13,6 +13,14 @@ const Jobgal = () => {
       </div>
       <div className="prt__artgal-container">
         <Article
+          imgUrl={images[21]} vidUrl={videos[16]} 
+          title="MetroLED" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[19]} vidUrl={videos[17]} 
+          title="Alchemical Artist" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
           imgUrl={images[0]} vidUrl={videos[0]} 
           title="PianoLamps" paragraph="2023" linktext="Watch Animation"
         />
@@ -27,6 +35,14 @@ const Jobgal = () => {
         <Article
           imgUrl={images[2]} 
           title="DeepOcean" paragraph="2023" 
+        />
+        <Article
+          imgUrl={images[17]} vidUrl={videos[19]} 
+          title="ClownDress" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[18]} vidUrl={videos[20]} 
+          title="NewsyLegs" paragraph="2023" linktext="Watch Animation"
         />
         <Article
           imgUrl={images[3]} vidUrl={videos[1]} 
@@ -79,6 +95,10 @@ const Jobgal = () => {
         <Article
           imgUrl={images[15]} vidUrl={videos[13]} 
           title="Bound" paragraph="2023" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[20]} vidUrl={videos[18]} 
+          title="SnowGlobeDress" paragraph="2023" linktext="Watch Animation"
         />
 
         {/* Add more articles with corresponding video URLs */}
