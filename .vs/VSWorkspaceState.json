@@ -2,10 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\Chains",
+    "\\src\\assets\\Chains\\chainsStyle",
+    "\\src\\containers",
     "\\src\\containers-chains",
     "\\src\\containers-chains\\modelsChains",
-    "\\src\\pages"
+    "\\src\\containers-chains\\styleChains",
+    "\\src\\containers\\artgal"
   ],
-  "SelectedNode": "\\src\\index.js",
+  "SelectedNode": "\\src\\containers-chains\\styleChains\\StyleChains.jsx",
   "PreviewInSolutionExplorer": true
 }
