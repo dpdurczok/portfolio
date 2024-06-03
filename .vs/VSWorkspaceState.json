@@ -2,16 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\JobGalPhotos",
-    "\\src\\components",
-    "\\src\\components\\navbar",
-    "\\src\\containers",
-    "\\src\\containers\\artgal",
-    "\\src\\containers\\games",
-    "\\src\\containers\\jobgal",
+    "\\src\\containers-chains",
+    "\\src\\containers-chains\\modelsChains",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\JobGalPhotos\\index.js",
+  "SelectedNode": "\\src\\index.js",
   "PreviewInSolutionExplorer": true
 }
