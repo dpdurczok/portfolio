@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\art\\Art.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\containers\\art\\Art.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\Main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\Main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\ArtGal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ArtGal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\artgal\\Artgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\containers\\artgal\\Artgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\header\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\header\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\article\\Article.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\article\\Article.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\WebsiteInstructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebsiteInstructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\containers\\jobgal\\Jobgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\ScrollToTop.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -17,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\containers\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\containers\\jobgal\\Jobgal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -47,45 +71,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WebsiteInstructions.txt",
-              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\WebsiteInstructions.txt",
-              "RelativeDocumentMoniker": "WebsiteInstructions.txt",
-              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\WebsiteInstructions.txt",
-              "RelativeToolTip": "WebsiteInstructions.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-12T07:45:02.382Z",
+              "Title": "Art.jsx",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\art\\Art.jsx",
+              "RelativeDocumentMoniker": "src\\containers\\art\\Art.jsx",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\art\\Art.jsx",
+              "RelativeToolTip": "src\\containers\\art\\Art.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-12T08:02:04.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.js",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\Main.js",
+              "RelativeDocumentMoniker": "src\\pages\\Main.js",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\Main.js",
+              "RelativeToolTip": "src\\pages\\Main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-12T08:01:51.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers-chains\\index.js",
-              "RelativeDocumentMoniker": "src\\containers-chains\\index.js",
-              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers-chains\\index.js",
-              "RelativeToolTip": "src\\containers-chains\\index.js",
+              "Title": "ArtGal.js",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\ArtGal.js",
+              "RelativeDocumentMoniker": "src\\pages\\ArtGal.js",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\pages\\ArtGal.js",
+              "RelativeToolTip": "src\\pages\\ArtGal.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-12T06:36:25.12Z",
+              "WhenOpened": "2025-03-12T08:01:07.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\index.js",
-              "RelativeDocumentMoniker": "src\\containers\\index.js",
-              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\index.js",
-              "RelativeToolTip": "src\\containers\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-12T06:36:12.938Z",
+              "DocumentIndex": 5,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\header\\Header.jsx",
+              "RelativeDocumentMoniker": "src\\components\\header\\Header.jsx",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\header\\Header.jsx",
+              "RelativeToolTip": "src\\components\\header\\Header.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-12T07:59:59.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Article.jsx",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\article\\Article.jsx",
+              "RelativeDocumentMoniker": "src\\components\\article\\Article.jsx",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\components\\article\\Article.jsx",
+              "RelativeToolTip": "src\\components\\article\\Article.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-12T07:59:51.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Artgal.jsx",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\artgal\\Artgal.jsx",
+              "RelativeDocumentMoniker": "src\\containers\\artgal\\Artgal.jsx",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\artgal\\Artgal.jsx",
+              "RelativeToolTip": "src\\containers\\artgal\\Artgal.jsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-12T07:47:34.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.js",
               "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\App.js",
               "RelativeDocumentMoniker": "src\\App.js",
@@ -98,20 +161,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "WebsiteInstructions.txt",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\WebsiteInstructions.txt",
+              "RelativeDocumentMoniker": "WebsiteInstructions.txt",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\WebsiteInstructions.txt",
+              "RelativeToolTip": "WebsiteInstructions.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-12T07:45:02.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Jobgal.jsx",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx",
+              "RelativeDocumentMoniker": "src\\containers\\jobgal\\Jobgal.jsx",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx",
+              "RelativeToolTip": "src\\containers\\jobgal\\Jobgal.jsx",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-11T15:48:19.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\index.js",
               "RelativeDocumentMoniker": "src\\index.js",
               "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\index.js",
               "RelativeToolTip": "src\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-12T06:35:32.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\index.js",
+              "RelativeDocumentMoniker": "src\\containers\\index.js",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\index.js",
+              "RelativeToolTip": "src\\containers\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-12T06:36:12.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers-chains\\index.js",
+              "RelativeDocumentMoniker": "src\\containers-chains\\index.js",
+              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers-chains\\index.js",
+              "RelativeToolTip": "src\\containers-chains\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-12T06:36:25.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ScrollToTop.jsx",
               "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\ScrollToTop.jsx",
               "RelativeDocumentMoniker": "src\\ScrollToTop.jsx",
@@ -119,25 +232,11 @@
               "RelativeToolTip": "src\\ScrollToTop.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-03-12T06:30:16.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T06:30:16.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Jobgal.jsx",
-              "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx",
-              "RelativeDocumentMoniker": "src\\containers\\jobgal\\Jobgal.jsx",
-              "ToolTip": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\src\\containers\\jobgal\\Jobgal.jsx",
-              "RelativeToolTip": "src\\containers\\jobgal\\Jobgal.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-03-11T15:48:19.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\dpdur\\Documents\\GitHub\\portfolio\\package.json",
               "RelativeDocumentMoniker": "package.json",

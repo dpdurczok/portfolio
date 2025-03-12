@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src\\assets",
-    "\\src\\assets\\Chains",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\article",
+    "\\src\\components\\header",
     "\\src\\containers",
-    "\\src\\containers-chains",
-    "\\src\\containers-chains\\modelsChains",
-    "\\src\\containers-chains\\styleChains",
-    "\\src\\containers\\artgal",
-    "\\src\\containers\\jobgal"
+    "\\src\\containers\\art",
+    "\\src\\containers\\commissions",
+    "\\src\\containers\\jobgal",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\WebsiteInstructions.txt",
+  "SelectedNode": "\\src\\containers\\art\\Art.jsx",
   "PreviewInSolutionExplorer": true
 }

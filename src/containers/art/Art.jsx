@@ -14,8 +14,7 @@ const Art = () => {
           
           <h1 className="gradient__text"> Artistic Creations </h1>
           <p>This gallery features a collection of my handcrafted renders made within Blender 
-          during my personal artistic explorations. 
-          All the textures used are sourced from reputable websites like Textures.com or Poliigon.</p>
+          during my personal artistic explorations. </p>
           
           <div className="prt__art-content__images">
             <div className="prt__art-content__images-domain"><img src={bee} alt=""/></div>
