@@ -1,0 +1,8 @@
+To deploy:
+-make sure node.js is installed
+-in visual studio: "view" > "terminal" to open terminal
+-select command prompt not power shell using the drop down in the terminal
+-"npm install" if npm isnt installed
+-"npm start" to start
+-"npm run deploy" to deploy
+-Push origin ?
