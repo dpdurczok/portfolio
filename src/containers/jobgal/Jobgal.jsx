@@ -51,11 +51,11 @@ const Jobgal = () => {
 
         <Article
           imgUrl={images[54]} vidUrl={videos[44]} 
-          title="Valentine Statueess" paragraph="2024 - Social Media post" linktext="Watch Animation"
+          title="Valentine Statueess" paragraph="2025 - Social Media post" linktext="Watch Animation"
         />
         <Article
           imgUrl={images[55]} vidUrl={videos[45]}
-          title="Valentine Statue" paragraph="2024 - Social Media post" linktext="Watch Animation"
+          title="Valentine Statue" paragraph="2025 - Social Media post" linktext="Watch Animation"
         />
         <Article
           imgUrl={images[69]} vidUrl={videos[56]} 
@@ -63,7 +63,7 @@ const Jobgal = () => {
               />
        <Article
           imgUrl={images[76]} vidUrl={videos[62]} 
-          title="T-Shirt Mock-Up" paragraph="2024" linktext="Watch Animation"
+          title="T-Shirt Mock-Up" paragraph="202" linktext="Watch Animation"
               />
 
 

@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\assets",
     "\\src\\assets\\Chains",
     "\\src\\containers",
@@ -11,6 +10,6 @@
     "\\src\\containers\\artgal",
     "\\src\\containers\\jobgal"
   ],
-  "SelectedNode": "\\src\\containers\\jobgal\\Jobgal.jsx",
+  "SelectedNode": "\\WebsiteInstructions.txt",
   "PreviewInSolutionExplorer": true
 }
