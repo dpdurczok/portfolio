@@ -7,3 +7,5 @@ To deploy:
 -insure git is installed "https://git-scm.com/downloads/win", "git-scm"
 -"npm run deploy" to deploy
 -Push origin ?
+
+-if getting authentiaction error try: "git config --global credential.helper wincred"
