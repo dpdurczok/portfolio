@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\Chains",
-    "\\src\\assets\\JobGalPhotos",
     "\\src\\containers",
     "\\src\\containers-chains",
     "\\src\\containers-chains\\modelsChains",
     "\\src\\containers-chains\\styleChains",
-    "\\src\\containers\\artgal"
+    "\\src\\containers\\artgal",
+    "\\src\\containers\\jobgal"
   ],
-  "SelectedNode": "\\src\\assets\\JobGalPhotos",
+  "SelectedNode": "\\src\\containers\\jobgal\\Jobgal.jsx",
   "PreviewInSolutionExplorer": true
 }

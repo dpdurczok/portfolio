@@ -13,6 +13,173 @@ const Jobgal = () => {
       </div>
       <div className="prt__artgal-container">
 
+       <Article
+          imgUrl={images[78]} vidUrl={videos[64]} 
+          title="OKAMI ZONE" paragraph="2025 - sports shirt Mock-Up" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[71]} vidUrl={videos[58]} 
+          title="PingPong Play" paragraph="2024 - (Draft)" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[47]} vidUrl={videos[38]}
+          title="Amirigems Tunnel" paragraph="2024 - Doorway Visualisation for Amiri Gems" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[63]} vidUrl={videos[52]}
+          title="Golden Heart" paragraph="2024 - Wedding Idea Visualisation" linktext="Watch Animation"
+              />
+
+
+        <Article
+          imgUrl={images[49]} vidUrl={videos[40]} 
+          title="Chrome Balls" paragraph="2024 - Interactive Stage Visualisation" linktext="Watch Animation"
+              />
+        <Article
+          imgUrl={images[52]} vidUrl={videos[42]} 
+          title="Teatro Trailer" paragraph="2024 - Teatro Dinner show Trailer" linktext="Watch Animation"
+              />
+        <Article
+          imgUrl={images[50]} 
+          title="The Bird Cage" paragraph="2024 - Party Attraction Idea"
+        />
+        <Article
+          imgUrl={images[51]} vidUrl={videos[41]}
+          title="Wing Hat" paragraph="2024" linktext="Watch Animation"
+              />
+
+
+        <Article
+          imgUrl={images[54]} vidUrl={videos[44]} 
+          title="Valentine Statueess" paragraph="2024 - Social Media post" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[55]} vidUrl={videos[45]}
+          title="Valentine Statue" paragraph="2024 - Social Media post" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[69]} vidUrl={videos[56]} 
+          title="Petineuse" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[76]} vidUrl={videos[62]} 
+          title="T-Shirt Mock-Up" paragraph="2024" linktext="Watch Animation"
+              />
+
+
+
+       <Article
+          imgUrl={images[72]} vidUrl={videos[59]} 
+          title="Pinwheel Mayhem" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[73]} vidUrl={videos[60]} 
+          title="Pool Platform" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[68]} vidUrl={videos[55]} 
+          title="New Years Post" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[75]} 
+          title="Shaddy Tree" paragraph="2024"
+              />
+
+
+
+       <Article
+          imgUrl={images[70]} vidUrl={videos[57]} 
+          title="Piano Lamps" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[77]} vidUrl={videos[63]} 
+          title="Canape Stairs" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[79]} 
+          title="Suitcase Stage" paragraph="2024"
+              />
+       <Article
+          imgUrl={images[80]}
+          title="Swan Sawmp" paragraph="2024"
+              />
+
+
+
+       <Article
+          imgUrl={images[81]} vidUrl={videos[65]} 
+          title="Teatro Christmast Hoop" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[82]} vidUrl={videos[66]} 
+          title="Teatro logo play" paragraph="2024" linktext="Watch Animation"
+              />
+       <Article
+          imgUrl={images[83]} vidUrl={videos[67]} 
+          title="PerformanceShow" paragraph="2024" linktext="Watch Animation"
+        />
+       <Article
+          imgUrl={images[74]} vidUrl={videos[61]} 
+          title="Red Piano Lamps" paragraph="2024" linktext="Watch Animation"
+              />
+
+
+
+       <Article
+          imgUrl={images[53]} vidUrl={videos[43]} 
+          title="Christmast Hoop" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+           imgUrl={images[61]} vidUrl={videos[51]}
+           title="Human Fauntain" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[57]} vidUrl={videos[47]} 
+          title="Emaar Boats" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[58]} vidUrl={videos[48]} 
+          title="Emaar Lamps" paragraph="2024 - Social Media post for Easter" linktext="Watch Animation"
+        />
+
+
+
+        <Article
+          imgUrl={images[59]} vidUrl={videos[49]} 
+          title="Emaar TV" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[60]} vidUrl={videos[50]} 
+          title="Flower Stage" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+           imgUrl={images[56]} vidUrl={videos[46]}
+           title="Cube Stage" paragraph="2024" linktext="Watch Animation"
+        />
+        <Article
+          imgUrl={images[48]} vidUrl={videos[39]} 
+          title="Arabic Wedding Visualisation" paragraph="2024" linktext="Watch Animation"
+        />
+
+
+
+        <Article
+          imgUrl={images[67]}
+          title="More Logo" paragraph="2024"
+              />
+        <Article
+          imgUrl={images[65]} vidUrl={videos[53]} 
+          title="Cloud Paradise" paragraph="2024" linktext="Watch Animation"
+              />
+        <Article
+          imgUrl={images[64]}
+          title="Harps in Heaven" paragraph="2024"
+        />
+        <Article
+          imgUrl={images[66]} vidUrl={videos[54]} 
+          title="Masked Wall" paragraph="2024" linktext="Watch Animation"
+        />
+
 
 
         <Article
