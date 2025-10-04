@@ -3,6 +3,11 @@
     {
       "title": "Okami Zone",
       "image": "/assets/uploads/img78.png"
+    },
+    {
+      "title": "Hear",
+      "image": "/assets/uploads/img63.png",
+      "videoFile": "/assets/uploads/vid52.mp4"
     }
   ]
 }
