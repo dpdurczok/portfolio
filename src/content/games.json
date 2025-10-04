@@ -14,7 +14,17 @@
       "linktext": "View Game",
       "image": "/assets/uploads/monkeycmonkeydo.png",
       "title": "Monkey C Monkey Do",
-      "link": "https://boxstudios.itch.io/monkey-c-monkey-do"
+      "link": "https://boxstudios.itch.io/monkey-c-monkey-do",
+      "blurb": "Stranded on islands, you make your way to the GLORIOUS banana island!. Recruiting fellow stranded monkeys along the way!"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
+      "title": "Emmett",
+      "blurb": "A Game made during the 1 week Brackeys 2022 game jam, where you solve puzzles through the use of Emmett's shadows.",
+      "year": 2022,
+      "image": "/assets/uploads/emmett.png",
+      "link": "https://boxstudios.itch.io/emmett"
     }
   ]
 }
