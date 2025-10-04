@@ -1,1 +1,49 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
+      "image": "/assets/uploads/monkeycmonkeydo.png",
+      "title": "Monkey C Monkey Do",
+      "link": "https://boxstudios.itch.io/monkey-c-monkey-do",
+      "blurb": "Created for a 3 day jam, an orthographic top down puzzle game where you must save as many stranded followers while heading for the GLORIOUS Banana Island!",
+      "year": 2025
+    },
+    {
+      "hashRouter": false,
+      "linktext": "Learn More",
+      "title": "Chains",
+      "image": "/assets/uploads/chains.png",
+      "link": "/chains",
+      "year": "",
+      "blurb": "An open-world game where you explore a whole world suspended in the sky, completing missions and discovering your past"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
+      "title": "Eternal Katana Slam",
+      "blurb": "A Game made withing 1 day as a challenge to see what i could make in such a short time alone.",
+      "link": "https://boxstudios.itch.io/eternal-katana-slam",
+      "year": 2021,
+      "image": "/assets/uploads/eternalkatanaslam.png"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
+      "title": "Emmett",
+      "blurb": "A Game made during the 1 week Brackeys 2022 game jam, where you solve puzzles through the use of Emmett's shadows.",
+      "year": 2022,
+      "image": "/assets/uploads/emmett.png",
+      "link": "https://boxstudios.itch.io/emmett"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "Learn More",
+      "title": "Deep Stone Cosmic",
+      "year": 2023,
+      "blurb": "A 1 week Brackeys game jam entry, where you dive deeper into an undiscovered planet for your usual mining expedition... but something goes horribly wrong...",
+      "image": "/assets/uploads/deepstonecosmic.png",
+      "link": "https://boxstudios.itch.io/deep-stone"
+    }
+  ]
+}
