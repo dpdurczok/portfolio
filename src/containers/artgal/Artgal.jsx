@@ -1,7 +1,7 @@
 import React from "react";
 import "./artgal.css";
 import { Article } from "../../components";
-import data from "../../content/projects.json"; // <-- data from CMS
+import data from "../../content/art.json"; // <-- data from CMS
 
 export default function Artgal() {
   // Prefer manual order; fallback to year/title

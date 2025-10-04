@@ -1,7 +1,7 @@
 import React from 'react';
 import './Jobgal.css';
 import { Article } from '../../components';
-import data from '../../content/projects.json';
+import data from '../../content/jobs.json';
 
 export default function Jobgal() {
   // Manual order first; then year (newest); then title
