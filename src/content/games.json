@@ -20,11 +20,28 @@
     {
       "hashRouter": false,
       "linktext": "View Game",
+      "title": "Eternal Katana Slam",
+      "blurb": "A Game made withing 1 day as a challenge to see what i could make in such a short time alone.",
+      "link": "https://boxstudios.itch.io/eternal-katana-slam",
+      "year": 2021,
+      "image": "/assets/uploads/eternalkatanaslam.png"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
       "title": "Emmett",
       "blurb": "A Game made during the 1 week Brackeys 2022 game jam, where you solve puzzles through the use of Emmett's shadows.",
       "year": 2022,
       "image": "/assets/uploads/emmett.png",
       "link": "https://boxstudios.itch.io/emmett"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "Learn More",
+      "title": "Deep Stone Cosmic",
+      "year": 2023,
+      "blurb": "A 1 week Brackeys game jam entry, where you dive deeper into an undiscovered planet for your usual mining expedition... but something goes horribly wrong...",
+      "image": "/assets/uploads/deepstonecosmic.png"
     }
   ]
 }
