@@ -1,1 +1,12 @@
-{ "projects": [] }
+{
+  "projects": [
+    {
+      "title": "Ocami Zone ",
+      "year": 2025,
+      "type": "client",
+      "order": 1,
+      "blurb": "Sports shirt Mock-Up",
+      "image": "/assets/uploads/img78.png"
+    }
+  ]
+}
