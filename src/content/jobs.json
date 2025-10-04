@@ -27,18 +27,17 @@
       "year": 2025
     },
     {
-      "title": "Teatro Trailer",
-      "year": 2024,
-      "blurb": "Munich Teatro Dinner show Trailer",
-      "videoFile": "/assets/uploads/vid42.mp4",
-      "image": "/assets/uploads/img52.png"
-    },
-    {
       "title": "Teatro/Gabrielerizzilab Logo Play",
       "blurb": "Social media render for Teatro's 2024 event in Munich",
       "year": 2024,
       "videoFile": "/assets/uploads/vid66.mp4",
       "image": "/assets/uploads/img82.png"
+    },
+    {
+      "title": "Teatro Christmast Hoop",
+      "year": 2024,
+      "image": "/assets/uploads/img81.png",
+      "videoFile": "/assets/uploads/vid65.mp4"
     },
     {
       "title": "Valentine Statueess",
@@ -55,17 +54,24 @@
       "videoFile": "/assets/uploads/vid45.mp4"
     },
     {
-      "title": "Teatro Christmast Hoop",
-      "year": 2024,
-      "image": "/assets/uploads/img81.png",
-      "videoFile": "/assets/uploads/vid65.mp4"
-    },
-    {
       "title": "Ping Pong Mockup",
       "year": 2024,
       "blurb": "Unfinalized test draft",
       "image": "/assets/uploads/img71.png",
       "videoFile": "/assets/uploads/vid58.mp4"
+    },
+    {
+      "title": "Teatro Trailer",
+      "year": 2024,
+      "blurb": "Munich Teatro Dinner show Trailer",
+      "videoFile": "/assets/uploads/vid42.mp4",
+      "image": "/assets/uploads/img52.png"
+    },
+    {
+      "title": "Piano Lamps",
+      "year": 2022,
+      "image": "/assets/uploads/img70.png",
+      "videoFile": "/assets/uploads/vid57.mp4"
     }
   ]
 }
