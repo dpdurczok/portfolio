@@ -2,12 +2,70 @@
   "items": [
     {
       "title": "Okami Zone",
-      "image": "/assets/uploads/img78.png"
+      "image": "/assets/uploads/img78.png",
+      "year": 2025,
+      "blurb": "sports shirt Mock-Up",
+      "videoFile": "/assets/uploads/vid64.mp4"
     },
     {
-      "title": "Hear",
+      "title": "Golden Heart",
       "image": "/assets/uploads/img63.png",
-      "videoFile": "/assets/uploads/vid52.mp4"
+      "videoFile": "/assets/uploads/vid52.mp4",
+      "blurb": "Wedding Idea Visualisation",
+      "year": 2024
+    },
+    {
+      "title": "Teatro Teaser 2025",
+      "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich",
+      "year": 2025,
+      "image": "/assets/uploads/teatroentrancebloom.png"
+    },
+    {
+      "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich",
+      "title": "Teatro Teaser 2025",
+      "image": "/assets/uploads/teatrokeyhole.png",
+      "year": 2025
+    },
+    {
+      "title": "Teatro Trailer",
+      "year": 2024,
+      "blurb": "Munich Teatro Dinner show Trailer",
+      "videoFile": "/assets/uploads/vid42.mp4",
+      "image": "/assets/uploads/img52.png"
+    },
+    {
+      "title": "Teatro/Gabrielerizzilab Logo Play",
+      "blurb": "Social media render for Teatro's 2024 event in Munich",
+      "year": 2024,
+      "videoFile": "/assets/uploads/vid66.mp4",
+      "image": "/assets/uploads/img82.png"
+    },
+    {
+      "title": "Valentine Statueess",
+      "blurb": "Social Media post",
+      "year": 2025,
+      "image": "/assets/uploads/img54.png",
+      "videoFile": "/assets/uploads/vid44.mp4"
+    },
+    {
+      "title": "Valentine Statue",
+      "year": 2025,
+      "blurb": "Social Media post",
+      "image": "/assets/uploads/img55.png",
+      "videoFile": "/assets/uploads/vid45.mp4"
+    },
+    {
+      "title": "Teatro Christmast Hoop",
+      "year": 2024,
+      "image": "/assets/uploads/img81.png",
+      "videoFile": "/assets/uploads/vid65.mp4"
+    },
+    {
+      "title": "Ping Pong Mockup",
+      "year": 2024,
+      "blurb": "Unfinalized test draft",
+      "image": "/assets/uploads/img71.png",
+      "videoFile": "/assets/uploads/vid58.mp4"
     }
   ]
 }
