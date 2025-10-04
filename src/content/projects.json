@@ -15,6 +15,12 @@
       "blurb": "Sports shirt Mock-Up",
       "image": "/assets/img78.png",
       "videoFile": "/assets/vid64.mp4"
+    },
+    {
+      "title": "Bee",
+      "year": 2021,
+      "type": "personal",
+      "image": "/assets/img02.png"
     }
   ]
 }
