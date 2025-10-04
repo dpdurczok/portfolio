@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/assets/uploads"  # where files are stored in repo
+public_folder: "/assets/uploads"       # how your site references them
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    file: "src/content/projects.json"  # one JSON file the CMS edits
+    format: "json"
+    fields:
+      - label: "Projects"
+        name: "projects"
+        widget: "list"
+        summary: "{{fields.title}} ({{fields.year}})"
+        fields:
+          - { label: "Title",  name: "title",  widget: "string" }
+          - { label: "Year",   name: "year",   widget: "number" }
+          - { label: "Type",   name: "type",   widget: "select", options: ["client","personal","game","art"] }
+          - { label: "Order",  name: "order",  widget: "number", required: false, hint: "Lower = earlier in the list" }
+          - { label: "Blurb",  name: "blurb",  widget: "text", required: false }
+          - { label: "Image",  name: "image",  widget: "image" }
+          - { label: "Video URL", name: "video", widget: "string", required: false }
+          - { label: "Tags",   name: "tags",   widget: "list", required: false }
