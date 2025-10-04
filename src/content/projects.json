@@ -1,19 +1,19 @@
 {
   "projects": [
     {
+      "title": "Golden Heart",
+      "year": 2024,
+      "type": "client",
+      "blurb": "Wedding Idea Visualization",
+      "image": "/assets/uploads/img63.png"
+    },
+    {
       "title": "Ocami Zone ",
       "year": 2025,
       "type": "client",
       "order": 0,
       "blurb": "Sports shirt Mock-Up",
       "image": "/assets/uploads/img78.png"
-    },
-    {
-      "title": "Golden Heart",
-      "year": 2024,
-      "type": "client",
-      "blurb": "Wedding Idea Visualization",
-      "image": "/assets/uploads/img63.png"
     }
   ]
 }
