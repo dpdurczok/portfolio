@@ -13,11 +13,12 @@ collections:
         label: "Projects"
         name: "projects"
         format: "json"
+        media_folder: "public/assets"   # uploads go under /public/assets
+        public_folder: "/assets"
         fields:
           - label: "Projects"
             name: "projects"
             widget: "list"
-            summary: "{{fields.title}} ({{fields.year}})"
             fields:
               - { label: "Title",  name: "title",  widget: "string" }
               - { label: "Year",   name: "year",   widget: "number" }
@@ -26,4 +27,5 @@ collections:
               - { label: "Blurb",  name: "blurb",  widget: "text", required: false }
               - { label: "Image",  name: "image",  widget: "image" }
               - { label: "Video URL", name: "video", widget: "string", required: false }
+              - { label: "Video file", name: "videoFile", widget: "file", required: false }
               - { label: "Tags",   name: "tags",   widget: "list", required: false }
