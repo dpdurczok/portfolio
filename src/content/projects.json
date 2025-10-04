@@ -13,7 +13,8 @@
       "type": "client",
       "order": 0,
       "blurb": "Sports shirt Mock-Up",
-      "image": "/assets/uploads/img78.png"
+      "image": "/assets/img78.png",
+      "videoFile": "/assets/vid64.mp4"
     }
   ]
 }
