@@ -5,7 +5,7 @@ import data from '../../content/jobs.json';
 
 export default function Jobgal() {
   // Manual order first; then year (newest); then title
-  const items = [...(data.projects || [])]
+  const items = [...(data.items || [])]
     .filter(p => p.type === 'client')
     .sort(
       (a, b) =>

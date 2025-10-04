@@ -5,7 +5,7 @@ import data from "../../content/art.json"; // <-- data from CMS
 
 export default function Artgal() {
   // Prefer manual order; fallback to year/title
-  const items = [...(data.projects || [])]
+  const items = [...(data.items || [])]
     .filter(p => p.type === "art")
     .sort(
       (a, b) =>
