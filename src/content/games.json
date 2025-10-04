@@ -1,1 +1,20 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "hashRouter": true,
+      "linktext": "Learn More",
+      "title": "Chains",
+      "image": "/assets/uploads/chains.png",
+      "link": "/chains",
+      "year": 0,
+      "blurb": "An open-world game where you explore a whole world suspended in the sky, completing missions and discovering your past"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "View Game",
+      "image": "/assets/uploads/monkeycmonkeydo.png",
+      "title": "Monkey C Monkey Do",
+      "link": "https://boxstudios.itch.io/monkey-c-monkey-do"
+    }
+  ]
+}
