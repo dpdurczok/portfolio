@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "hashRouter": true,
+      "hashRouter": false,
       "linktext": "Learn More",
       "title": "Chains",
       "image": "/assets/uploads/chains.png",
