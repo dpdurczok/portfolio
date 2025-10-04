@@ -15,7 +15,8 @@
       "image": "/assets/uploads/monkeycmonkeydo.png",
       "title": "Monkey C Monkey Do",
       "link": "https://boxstudios.itch.io/monkey-c-monkey-do",
-      "blurb": "Stranded on islands, you make your way to the GLORIOUS banana island!. Recruiting fellow stranded monkeys along the way!"
+      "blurb": "Created for a 3 day jam, an orthographic top down puzzle game where you must save as many stranded followers while heading for the GLORIOUS Banana Island!",
+      "year": 2025
     },
     {
       "hashRouter": false,
@@ -41,7 +42,8 @@
       "title": "Deep Stone Cosmic",
       "year": 2023,
       "blurb": "A 1 week Brackeys game jam entry, where you dive deeper into an undiscovered planet for your usual mining expedition... but something goes horribly wrong...",
-      "image": "/assets/uploads/deepstonecosmic.png"
+      "image": "/assets/uploads/deepstonecosmic.png",
+      "link": "https://boxstudios.itch.io/deep-stone"
     }
   ]
 }
