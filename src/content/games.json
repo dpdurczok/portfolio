@@ -44,6 +44,14 @@
       "blurb": "A 1 week Brackeys game jam entry, where you dive deeper into an undiscovered planet for your usual mining expedition... but something goes horribly wrong...",
       "image": "/assets/uploads/deepstonecosmic.png",
       "link": "https://boxstudios.itch.io/deep-stone"
+    },
+    {
+      "hashRouter": false,
+      "linktext": "Learn More",
+      "title": "Chains",
+      "blurb": "An open-world game where you explore a whole world suspended in the sky, completing missions and discovering your past",
+      "link": "/chains",
+      "image": "/assets/uploads/chains.png"
     }
   ]
 }
