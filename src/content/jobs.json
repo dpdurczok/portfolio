@@ -54,13 +54,6 @@
       "videoFile": "/assets/uploads/vid45.mp4"
     },
     {
-      "title": "Ping Pong Mockup",
-      "year": 2024,
-      "blurb": "Unfinalized test draft",
-      "image": "/assets/uploads/img71.png",
-      "videoFile": "/assets/uploads/vid58.mp4"
-    },
-    {
       "title": "Teatro Trailer",
       "year": 2024,
       "blurb": "Munich Teatro Dinner show Trailer",
@@ -72,6 +65,13 @@
       "year": 2022,
       "image": "/assets/uploads/img70.png",
       "videoFile": "/assets/uploads/vid57.mp4"
+    },
+    {
+      "title": "Ping Pong Mockup",
+      "year": 2024,
+      "blurb": "Unfinalized test draft",
+      "image": "/assets/uploads/img71.png",
+      "videoFile": "/assets/uploads/vid58.mp4"
     }
   ]
 }
