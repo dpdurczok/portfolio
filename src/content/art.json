@@ -1,1 +1,76 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "image": "/assets/uploads/img07.png",
+      "title": "A Lost Battery",
+      "year": 2020,
+      "blurb": "Dixit Inspired Render"
+    },
+    {
+      "title": "Jelly Dance",
+      "year": 2019,
+      "image": "/assets/uploads/img08.png",
+      "blurb": "Weekly challenge winner at Create with Clint"
+    },
+    {
+      "title": "Dry Bones",
+      "year": 2020,
+      "image": "/assets/uploads/img09.png",
+      "blurb": ""
+    },
+    {
+      "title": "Bee",
+      "year": 2021,
+      "image": "/assets/uploads/img02.png",
+      "blurb": "Macro Lens Inspired Render"
+    },
+    {
+      "title": "Kitchen",
+      "image": "/assets/uploads/img01.png",
+      "year": 2016,
+      "blurb": "Very First Full scene render"
+    },
+    {
+      "title": "Bathroom",
+      "image": "/assets/uploads/img18.png",
+      "year": 2019,
+      "blurb": "Architectural test"
+    },
+    {
+      "title": "Dead Deserts",
+      "year": 2020,
+      "blurb": "Weekly challenge winner at Create with Clint",
+      "image": "/assets/uploads/img09.png"
+    },
+    {
+      "image": "/assets/uploads/img04.png",
+      "title": "Sky Adventures",
+      "year": 2021,
+      "blurb": "Inspired by my own game Chains"
+    },
+    {
+      "image": "/assets/uploads/img16.png",
+      "year": 2019,
+      "title": "Movie Night",
+      "blurb": "Home Basement redecoration Visualization"
+    },
+    {
+      "title": "Steampunk",
+      "year": 2019,
+      "blurb": "",
+      "image": "/assets/uploads/img06.png"
+    },
+    {
+      "title": "Headlights",
+      "year": 2020,
+      "blurb": "Car modeling and eevee tests",
+      "image": "/assets/uploads/img11.png"
+    },
+    {
+      "title": "Sunset",
+      "year": 2017,
+      "blurb": "Background Request",
+      "image": "/assets/uploads/img22sunset.png"
+    }
+  ]
+}
