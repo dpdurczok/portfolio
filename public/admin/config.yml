@@ -1,6 +1,11 @@
+publish_mode: editorial_workflow   # optional, safer editing
+
 backend:
-  name: git-gateway
+  name: github
+  repo: dpdurczok/portfolio
   branch: main
+  base_url: https://u07fwuovdf.execute-api.us-east-1.amazonaws.com
+  auth_endpoint: /auth
 
 media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
