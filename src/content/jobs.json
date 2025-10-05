@@ -4,7 +4,7 @@
       "title": "Okami Zone",
       "image": "/assets/uploads/img78.png",
       "year": 2025,
-      "blurb": "sports shirt Mock-Up",
+      "blurb": "Client Product Mock Up",
       "videoFile": "/assets/uploads/vid64.mp4"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "title": "Valentine Statueess",
-      "blurb": "Social Media post",
+      "blurb": "Social Media post for Valentines",
       "year": 2025,
       "image": "/assets/uploads/img54.png",
       "videoFile": "/assets/uploads/vid44.mp4"
@@ -49,14 +49,14 @@
     {
       "title": "Valentine Statue",
       "year": 2025,
-      "blurb": "Social Media post",
+      "blurb": "Social Media post for Valentines",
       "image": "/assets/uploads/img55.png",
       "videoFile": "/assets/uploads/vid45.mp4"
     },
     {
       "title": "Teatro Trailer",
       "year": 2024,
-      "blurb": "Munich Teatro Dinner show Trailer",
+      "blurb": "Munich Teatro Dinner show Trailer, displayed on vintage TV's around the lobby",
       "videoFile": "/assets/uploads/vid42.mp4",
       "image": "/assets/uploads/img52.png"
     },
@@ -64,12 +64,13 @@
       "title": "Piano Lamps",
       "year": 2022,
       "image": "/assets/uploads/img70.png",
-      "videoFile": "/assets/uploads/vid57.mp4"
+      "videoFile": "/assets/uploads/vid57.mp4",
+      "blurb": "Light and Piano performance Visualization for a party"
     },
     {
       "title": "Ping Pong Mockup",
       "year": 2024,
-      "blurb": "Unfinalized test draft",
+      "blurb": "Unfinalized Mock up for a client - social media post to increase company familiarity",
       "image": "/assets/uploads/img71.png",
       "videoFile": "/assets/uploads/vid58.mp4"
     }
