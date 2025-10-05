@@ -3,11 +3,22 @@
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+
+  /* tweak these to change card size and gap */
+  --card-w: 360px;        /* card width */
+  --gap: 32px;            /* space between columns/rows */
+  --two-col-min: calc(2 * var(--card-w) + var(--gap)); /* min width for 2 cols */
+}
+
+/* shrink outer margins as needed so two columns fit as long as possible */
+.prt__artgal.section__margin{
+  margin-left: clamp(0px, (100vw - var(--two-col-min)) / 2, 4rem);
+  margin-right: clamp(0px, (100vw - var(--two-col-min)) / 2, 4rem);
 }
 
 /* ===== Heading ===== */
 .prt__artgal-heading{
-  width:100%;
+  width: 100%;
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -30,31 +41,22 @@
   margin: 1.5rem;
 }
 
-/* ===== Grid: fixed card width, no side padding, center block ===== */
+/* ===== Grid: fixed two columns, centered ===== */
 .prt__artgal-container{
-  /* tweak these two numbers to change card width + gap */
-  --card-w: 360px;
-  --gap: 32px;
-
   display: grid;
-  grid-template-columns: repeat(2, var(--card-w)); /* two fixed-width columns */
+  grid-template-columns: repeat(2, var(--card-w));  /* fixed 2 cols */
   gap: var(--gap);
-
-  /* no padding, so it hugs the viewport edges until it must break */
-  padding: 0;
-
-  /* center the two-column block when there’s extra space */
-  justify-content: center;
+  justify-content: center;   /* center when there’s extra space */
+  padding: 0;                /* no side padding so it can “hug” edges */
   margin: 0 auto;
 }
 
-/* keep cards from stretching oddly */
-.prt__artgal-container > * {
+/* keep cards tidy */
+.prt__artgal-container > *{
   width: 100%;
   max-width: var(--card-w);
 }
 
-/* images scale nicely */
 .prt__artgal-container img{
   width: 100%;
   height: auto;
@@ -64,8 +66,7 @@
 /* ===== Video modal (unchanged) ===== */
 .fullscreen-video {
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  inset: 0;
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -80,7 +81,8 @@
 
 .close-video {
   position: absolute;
-  top: 20px; right: 20px;
+  top: 20px;
+  right: 20px;
   background-color: transparent;
   border: none;
   color: #fff;
@@ -89,28 +91,27 @@
 }
 
 /* ===== Breakpoints ===== */
-/* Switch to 1 column when two cards + gap no longer fit.
-   2 * 360 + 32 = 752px; add a tiny buffer -> 760px */
-@media (max-width: 760px){
+/* Switch to 1 column only when 2 * card width + gap won't fit */
+@media (max-width: 752px){ /* 2*360 + 32; update if you change --card-w/--gap */
   .prt__artgal-container{
     grid-template-columns: var(--card-w);
   }
 }
 
-/* On very small devices (<380px), let the single column be fluid to avoid horizontal scroll */
+/* Very small devices: make single column fluid to avoid horizontal scroll */
 @media (max-width: 380px){
-  .prt__artgal h1{
+  .prt__artgal-heading h1{
     font-size: 36px;
     line-height: 48px;
   }
-  .prt__artgal p{
+  .prt__artgal-heading p{
     font-size: 14px;
     line-height: 24px;
   }
   .prt__artgal-container{
-    grid-template-columns: 1fr;      /* fluid width */
+    grid-template-columns: 1fr;   /* fluid width */
   }
-  .prt__artgal-container > * {
-    max-width: none;                  /* allow card to shrink below 360px */
+  .prt__artgal-container > *{
+    max-width: none;              /* allow card to shrink below --card-w */
   }
 }
