@@ -88,6 +88,52 @@
       "blurb": "Social Media Post / Collaboration with 2d Artist",
       "image": "/assets/uploads/flowerbloom.png",
       "videoFile": "/assets/uploads/flowerbloom.mp4"
+    },
+    {
+      "title": "Heel Tub",
+      "blurb": "Product Design and 3D model for EPS sculpting or large scale 3D printing",
+      "image": "/assets/uploads/heeltub.png",
+      "year": 2025
+    },
+    {
+      "title": "Blue Prints",
+      "blurb": "Comprehensive multi-page PDF documents outlining precise dimensions and fabrication guidelines for material-based design projects.",
+      "image": "/assets/uploads/blueprint.png"
+    },
+    {
+      "title": "Clock Mockup",
+      "year": 2024,
+      "blurb": "Company Mock up design and rendering",
+      "image": "/assets/uploads/img46.png",
+      "videoFile": "/assets/uploads/creativeclock.mp4"
+    },
+    {
+      "title": "Pomellato egg Visualization",
+      "year": 2024,
+      "blurb": "Tray Design and render Visualization for a corporate event",
+      "image": "/assets/uploads/img22.png",
+      "videoFile": "/assets/uploads/vid15.mp4"
+    },
+    {
+      "image": "/assets/uploads/img26.png",
+      "videoFile": "/assets/uploads/vid24.mp4",
+      "title": "Love Candles",
+      "year": 2024,
+      "blurb": "Product design Visualization for production"
+    },
+    {
+      "image": "/assets/uploads/img23.png",
+      "videoFile": "/assets/uploads/vid21.mp4",
+      "title": "Vinyl",
+      "year": 2024,
+      "blurb": "Mock Up video Render for a social media post"
+    },
+    {
+      "videoFile": "/assets/uploads/vid35.mp4",
+      "image": "/assets/uploads/img40.png",
+      "title": "Gummy Bear Mockup",
+      "year": 2024,
+      "blurb": "Mock Up video Render for a social media post"
     }
   ]
 }
