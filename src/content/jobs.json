@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "title": "Okami Zone",
-      "image": "/assets/uploads/img78.png",
-      "year": 2025,
-      "blurb": "Client Product Mock Up",
-      "videoFile": "/assets/uploads/vid64.mp4"
-    },
-    {
       "videoFile": "/assets/uploads/vid35.mp4",
       "image": "/assets/uploads/img40.png",
       "title": "Gummy Bear Mockup",
@@ -15,8 +8,15 @@
       "blurb": "Mock Up video Render for a social media post"
     },
     {
+      "title": "Okami Zone",
+      "image": "/assets/uploads/img78.png",
+      "year": 2025,
+      "blurb": "Client Product Mock Up",
+      "videoFile": "/assets/uploads/vid64.mp4"
+    },
+    {
       "title": "Teatro Teaser 2025",
-      "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich",
+      "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich. Event Teaser",
       "year": 2025,
       "image": "/assets/uploads/teatroentrancebloom.png",
       "videoFile": "/assets/uploads/teatro_a_blooming_welcome.mp4"
