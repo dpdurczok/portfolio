@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "videoFile": "/assets/uploads/vid35.mp4",
-      "image": "/assets/uploads/img40.png",
-      "title": "Gummy Bear Mockup",
-      "year": 2024,
-      "blurb": "Mock Up video Render for a social media post"
-    },
-    {
       "title": "Okami Zone",
       "image": "/assets/uploads/img78.png",
       "year": 2025,
       "blurb": "Client Product Mock Up",
       "videoFile": "/assets/uploads/vid64.mp4"
+    },
+    {
+      "videoFile": "/assets/uploads/vid35.mp4",
+      "image": "/assets/uploads/img40.png",
+      "title": "Gummy Bear Mockup",
+      "year": 2024,
+      "blurb": "Mock Up video Render for a social media post"
     },
     {
       "title": "Teatro Teaser 2025",
