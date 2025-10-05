@@ -30,21 +30,28 @@
   margin: 1.5rem;
 }
 
-/* ===== Grid (as before, but capped + centered) ===== */
+/* ===== Grid: fixed card width, no side padding, center block ===== */
 .prt__artgal-container{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* same 2 cols on desktop */
-  gap: 2rem;
+  /* tweak these two numbers to change card width + gap */
+  --card-w: 360px;
+  --gap: 32px;
 
-  /* NEW: cap total width so cards don't get huge on ultra-wide screens */
-  max-width: 900px;           /* tweak 800–1100px to taste */
-  margin: 0 auto;             /* center the grid block */
-  padding: 0 2rem;            /* comfy side padding */
+  display: grid;
+  grid-template-columns: repeat(2, var(--card-w)); /* two fixed-width columns */
+  gap: var(--gap);
+
+  /* no padding, so it hugs the viewport edges until it must break */
+  padding: 0;
+
+  /* center the two-column block when there’s extra space */
+  justify-content: center;
+  margin: 0 auto;
 }
 
 /* keep cards from stretching oddly */
 .prt__artgal-container > * {
   width: 100%;
+  max-width: var(--card-w);
 }
 
 /* images scale nicely */
@@ -81,34 +88,29 @@
   cursor: pointer;
 }
 
-/* ===== Responsive (same 1-per-row on phones) ===== */
-@media screen and (max-width: 650px){
-  .prt__artgal h1{
-      font-size: 48px;
-      line-height: 60px;
-      margin-bottom: 0rem;
-  }
-  .prt__artgal p{
-      font-size: 16px;
-      line-height: 24px;
-  }
+/* ===== Breakpoints ===== */
+/* Switch to 1 column when two cards + gap no longer fit.
+   2 * 360 + 32 = 752px; add a tiny buffer -> 760px */
+@media (max-width: 760px){
   .prt__artgal-container{
-      grid-template-columns: 1fr;  /* single column on phones */
-      padding: 0 1rem;             /* tighter padding on small screens */
-      max-width: 560px;            /* optional: cap a bit on landscape phones */
+    grid-template-columns: var(--card-w);
   }
 }
 
-@media screen and (max-width: 490px){
+/* On very small devices (<380px), let the single column be fluid to avoid horizontal scroll */
+@media (max-width: 380px){
   .prt__artgal h1{
-      font-size: 36px;
-      line-height: 48px;
+    font-size: 36px;
+    line-height: 48px;
   }
   .prt__artgal p{
-      font-size: 14px;
-      line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .prt__artgal-container{
-    margin: 0;
+    grid-template-columns: 1fr;      /* fluid width */
+  }
+  .prt__artgal-container > * {
+    max-width: none;                  /* allow card to shrink below 360px */
   }
 }
