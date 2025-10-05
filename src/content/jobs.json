@@ -18,13 +18,15 @@
       "title": "Teatro Teaser 2025",
       "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich",
       "year": 2025,
-      "image": "/assets/uploads/teatroentrancebloom.png"
+      "image": "/assets/uploads/teatroentrancebloom.png",
+      "videoFile": "/assets/uploads/teatro_a_blooming_welcome.mp4"
     },
     {
       "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich",
       "title": "Teatro Teaser 2025",
       "image": "/assets/uploads/teatrokeyhole.png",
-      "year": 2025
+      "year": 2025,
+      "videoFile": "/assets/uploads/teatrokeyhole.mp4"
     },
     {
       "title": "Teatro/Gabrielerizzilab Logo Play",
