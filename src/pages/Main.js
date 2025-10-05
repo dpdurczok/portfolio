@@ -10,7 +10,7 @@ const Main = () => {
         <Navbar />
         <Header
           title="About Me and My Work"
-          paragraph={`I'm a self-taught indie game developer, utilizing Unity and Blender to bring my creative ideas to life. My focus lies in creating models, animating characters, and writing shaders. Additionally, I enjoy spending my spare time crafting renders in Blender Cycles or Eevee.`}
+          paragraph={`I’m a self-taught computer artist and indie game developer, working with tools like Unity and Blender to bring ideas to life. My work spans across 3D modeling, rendering, animation, video editing, and product blueprint creation. These days, most of my renders and visual projects are client commissions or part of my game development work, as my creative focus has shifted from hobby projects to full-time production.`}
         />
 
       </div>

@@ -11,7 +11,7 @@ export default function Games() {
     <div className="prt__games section__margin" id="games">
       <div className="prt__games-heading">
         <h1 className="gradient__text">Game Development Portfolio</h1>
-        <p>Explore my range of games—some refined and complete, others still in development.</p>
+        <p>Explore my collection of games — some more polished, others still in development. Most of these were created within short time frames during game jams, so progress on further development tends to be slow and occasionally ongoing.</p>
       </div>
 
       <div className="prt__games-container">
