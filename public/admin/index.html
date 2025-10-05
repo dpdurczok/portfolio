@@ -6,13 +6,13 @@
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- Prevent auto-fetching /admin/config.yml -->
+    <!-- 1) Tell Decap NOT to auto-load /admin/config.yml -->
     <script>window.CMS_MANUAL_INIT = true;</script>
 
-    <!-- Decap CMS -->
+    <!-- 2) Load Decap -->
     <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
 
-    <!-- Inline config -->
+    <!-- 3) Single, clean CMS.init with unique collection names -->
     <script>
       CMS.init({
         config: {
@@ -21,20 +21,21 @@
             name: "github",
             repo: "dpdurczok/portfolio",
             branch: "main",
-            base_url: "https://u07fwuovdf.execute-api.us-east-1.amazonaws.com",
+            base_url: "https://u07fwuovdf.execute-api.us-east-1.amazonaws.com", // <-- your API base
             auth_endpoint: "/auth"
           },
           media_folder: "public/assets/uploads",
           public_folder: "/assets/uploads",
+
           collections: [
             {
-              name: "art",
+              name: "art",               /* UNIQUE */
               label: "Art Projects",
               files: [
                 {
                   file: "src/content/art.json",
                   label: "Art Projects",
-                  name: "art_items",
+                  name: "art_items",     /* UNIQUE */
                   format: "json",
                   fields: [
                     {
@@ -43,27 +44,28 @@
                       widget: "list",
                       summary: "{{fields.title}} ({{fields.year}})",
                       fields: [
-                        { label: "Title",  name: "title",  widget: "string" },
-                        { label: "Year",   name: "year",   widget: "number", required: false },
-                        { label: "Blurb",  name: "blurb",  widget: "text", required: false },
-                        { label: "Image",  name: "image",  widget: "image" },
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Year", name: "year", widget: "number", required: false },
+                        { label: "Blurb", name: "blurb", widget: "text", required: false },
+                        { label: "Image", name: "image", widget: "image" },
                         { label: "Video URL", name: "video", widget: "string", required: false },
                         { label: "Video file", name: "videoFile", widget: "file", required: false },
-                        { label: "Tags",   name: "tags",   widget: "list", required: false }
+                        { label: "Tags", name: "tags", widget: "list", required: false }
                       ]
                     }
                   ]
                 }
               ]
             },
+
             {
-              name: "jobs",
+              name: "jobs",              /* UNIQUE */
               label: "Job Projects",
               files: [
                 {
                   file: "src/content/jobs.json",
                   label: "Job Projects",
-                  name: "job_items",
+                  name: "job_items",     /* UNIQUE */
                   format: "json",
                   fields: [
                     {
@@ -72,27 +74,28 @@
                       widget: "list",
                       summary: "{{fields.title}} ({{fields.year}})",
                       fields: [
-                        { label: "Title",  name: "title",  widget: "string" },
-                        { label: "Year",   name: "year",   widget: "number", required: false },
-                        { label: "Blurb",  name: "blurb",  widget: "text", required: false },
-                        { label: "Image",  name: "image",  widget: "image" },
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Year", name: "year", widget: "number", required: false },
+                        { label: "Blurb", name: "blurb", widget: "text", required: false },
+                        { label: "Image", name: "image", widget: "image" },
                         { label: "Video URL", name: "video", widget: "string", required: false },
                         { label: "Video file", name: "videoFile", widget: "file", required: false },
-                        { label: "Tags",   name: "tags",   widget: "list", required: false }
+                        { label: "Tags", name: "tags", widget: "list", required: false }
                       ]
                     }
                   ]
                 }
               ]
             },
+
             {
-              name: "games",
+              name: "games",             /* UNIQUE */
               label: "Games",
               files: [
                 {
                   file: "src/content/games.json",
                   label: "Games",
-                  name: "game_items",
+                  name: "game_items",    /* UNIQUE */
                   format: "json",
                   fields: [
                     {
@@ -101,14 +104,14 @@
                       widget: "list",
                       summary: "{{fields.title}} ({{fields.year}})",
                       fields: [
-                        { label: "Title",  name: "title",  widget: "string" },
-                        { label: "Year",   name: "year",   widget: "number", required: false },
-                        { label: "Blurb",  name: "blurb",  widget: "text", required: false },
-                        { label: "Image",  name: "image",  widget: "image" },
+                        { label: "Title", name: "title", widget: "string" },
+                        { label: "Year", name: "year", widget: "number", required: false },
+                        { label: "Blurb", name: "blurb", widget: "text", required: false },
+                        { label: "Image", name: "image", widget: "image" },
                         { label: "Link (URL or /route)", name: "link", widget: "string", required: false },
                         { label: "Use HashRouter for this link?", name: "hashRouter", widget: "boolean", required: false, default: false },
                         { label: "Link text", name: "linktext", widget: "string", required: false, default: "Learn More" },
-                        { label: "Tags",   name: "tags",   widget: "list", required: false }
+                        { label: "Tags", name: "tags", widget: "list", required: false }
                       ]
                     }
                   ]
