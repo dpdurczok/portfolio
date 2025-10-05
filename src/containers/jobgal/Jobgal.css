@@ -35,14 +35,27 @@
 }
 
 .prt__artgal-container{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  margin: 0 2rem;
+  /* cards stay between 280–360px, grid auto-wraps */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+  gap: 2rem;
+
+  /* center the tracks so extra space becomes left/right gutters */
+  justify-content: center;
+
+  /* side padding on small/medium screens */
+  padding: 0 2rem;
+
+  /* center the whole grid in the page */
+  margin: 0 auto;
 }
+
+/* keep any direct child (your <Article> card) from growing past the cap */
+.prt__artgal-container > * {
+  max-width: 360px;
+  width: 100%;
+}
+
 
 /* Styles for the video modal */
 .fullscreen-video {
@@ -74,19 +87,13 @@
   cursor: pointer;
 }
 
-@media screen and (min-width:2000px){
+@media (max-width: 650px){
   .prt__artgal-container{
-      grid-template-columns: repeat(4, 1fr);
-      
+    grid-template-columns: 1fr; /* one card per row on phones */
+    padding: 0 1rem;
   }
 }
 
-@media screen and (max-width:1000px){
-  .prt__artgal-container{
-      grid-template-columns: repeat(2, 1fr);
-      
-  }
-}
 
 @media screen and (max-width: 650px){
   .prt__artgal h1{
