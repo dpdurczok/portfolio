@@ -87,12 +87,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 650px){
-  .prt__artgal-container{
-    grid-template-columns: 1fr; /* one card per row on phones */
-    padding: 0 1rem;
-  }
-}
+
 
 
 @media screen and (max-width: 650px){
