@@ -1,91 +1,109 @@
+/* ===== Section wrapper ===== */
 .prt__artgal{
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+
+  /* tweak these to change card size and gap */
+  --card-w: 360px;                     /* fixed card width */
+  --gap: 32px;                         /* space between cards */
+  --two-col-min: calc(2 * var(--card-w) + var(--gap));
 }
 
+/* shrink outer margins smoothly so 2 cols keep fitting as long as possible */
+.prt__artgal.section__margin{
+  margin-left: clamp(0px, (100vw - var(--two-col-min)) / 2, 4rem);
+  margin-right: clamp(0px, (100vw - var(--two-col-min)) / 2, 4rem);
+}
+
+/* ===== Heading ===== */
 .prt__artgal-heading{
   width:100%;
   text-align: left;
-
   margin-bottom: 1rem;
 }
 
 .prt__artgal-heading h1{
   font-family: var(--font-family);
-  font-size: normal;
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
   margin: 2rem;
-
   letter-spacing: -0.04em;
 }
 
 .prt__artgal-heading p{
   font-family: var(--font-family);
-
-  font-size: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
   color: var(--color-text);
   margin: 1.5rem;
- 
 }
 
+/* ===== Grid: fixed two columns, centered, no side padding ===== */
 .prt__artgal-container{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  margin: 0 2rem;
+  grid-template-columns: repeat(2, var(--card-w)); /* fixed widths */
+  gap: var(--gap);
+  justify-content: center;   /* center when there’s extra space */
+  margin: 0 auto;
+  padding: 0;                /* no padding so it can “hug” edges while squeezing */
 }
 
-@media screen and (min-width:2000px){
+/* keep children tidy */
+.prt__artgal-container > * {
+  width: 100%;
+  max-width: var(--card-w);
+}
+
+.prt__artgal-container img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Breakpoints ===== */
+/* Switch to 1 column only when 2 * card width + gap won't fit */
+@media (max-width: 752px){ /* 2*360 + 32; update if you change --card-w/--gap */
   .prt__artgal-container{
-      grid-template-columns: repeat(4, 1fr);
-      
+    grid-template-columns: var(--card-w);
   }
 }
 
-@media screen and (max-width:1000px){
+/* Very small devices: let single column be fluid to avoid horizontal scroll */
+@media (max-width: 380px){
   .prt__artgal-container{
-      grid-template-columns: repeat(2, 1fr);
-      
+    grid-template-columns: 1fr;
+  }
+  .prt__artgal-container > *{
+    max-width: none;
   }
 }
 
+/* ===== Typography tweaks on small screens (as you had) ===== */
 @media screen and (max-width: 650px){
   .prt__artgal h1{
-      font-size: 48px;
-      line-height: 60px;
-      margin-bottom: 0rem;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0;
   }
-
   .prt__artgal p{
-      font-size: 16px;
-      line-height: 24px;
-  }
-  .prt__artgal-container{
-      grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
 @media screen and (max-width: 490px){
   .prt__artgal h1{
-      font-size: 36px;
-      line-height: 48px;
+    font-size: 36px;
+    line-height: 48px;
   }
-
   .prt__artgal p{
-      font-size: 14px;
-      line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .prt__artgal-container{
-    margin:0;
+    margin: 0;
   }
-
 }
