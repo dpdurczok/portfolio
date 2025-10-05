@@ -1,1 +1,136 @@
-{ "items": [] }
+{
+  "items": [
+    {
+      "image": "/assets/uploads/img07.png",
+      "title": "A Lost Battery",
+      "year": 2020,
+      "blurb": "Dixit Inspired Render"
+    },
+    {
+      "title": "Jelly Dance",
+      "year": 2019,
+      "image": "/assets/uploads/img08.png",
+      "blurb": "Weekly challenge winner at Create with Clint"
+    },
+    {
+      "title": "Dry Bones",
+      "year": 2020,
+      "image": "/assets/uploads/img09.png",
+      "blurb": ""
+    },
+    {
+      "title": "Bee",
+      "year": 2021,
+      "image": "/assets/uploads/img02.png",
+      "blurb": "Macro Lens Inspired Render"
+    },
+    {
+      "title": "Kitchen",
+      "image": "/assets/uploads/img01.png",
+      "year": 2016,
+      "blurb": "Very First Full scene render"
+    },
+    {
+      "title": "Bathroom",
+      "image": "/assets/uploads/img18.png",
+      "year": 2019,
+      "blurb": "Architectural test"
+    },
+    {
+      "title": "Dead Deserts",
+      "year": 2020,
+      "blurb": "Weekly challenge winner at Create with Clint",
+      "image": "/assets/uploads/img24.png"
+    },
+    {
+      "image": "/assets/uploads/img04.png",
+      "title": "Sky Adventures",
+      "year": 2021,
+      "blurb": "Inspired by my own game Chains"
+    },
+    {
+      "image": "/assets/uploads/img16.png",
+      "year": 2019,
+      "title": "Movie Night",
+      "blurb": "Home Basement redecoration Visualization"
+    },
+    {
+      "title": "Steampunk",
+      "year": 2019,
+      "blurb": "",
+      "image": "/assets/uploads/img06.png"
+    },
+    {
+      "title": "Headlights",
+      "year": 2020,
+      "blurb": "Car modeling and eevee tests",
+      "image": "/assets/uploads/img11.png"
+    },
+    {
+      "title": "Sunset",
+      "year": 2017,
+      "blurb": "Background Request",
+      "image": "/assets/uploads/img22sunset.png"
+    },
+    {
+      "image": "/assets/uploads/img19.png",
+      "title": "Two Towels",
+      "year": 2019,
+      "blurb": "Realism and Particle systems Test"
+    },
+    {
+      "image": "/assets/uploads/img03.png",
+      "title": "John",
+      "blurb": "Eevee and freestyle test",
+      "year": 2018
+    },
+    {
+      "image": "/assets/uploads/img21.png",
+      "year": 2020,
+      "title": "Romantic Evening",
+      "blurb": "Procedural Materials Test"
+    },
+    {
+      "image": "/assets/uploads/img15.png",
+      "title": "The Ramen",
+      "year": 2021,
+      "blurb": "A Create with Clint weekly challenge"
+    },
+    {
+      "image": "/assets/uploads/img05.png",
+      "title": "Morning Coffee",
+      "year": 2020
+    },
+    {
+      "image": "/assets/uploads/img25.png",
+      "title": "A Delicious Meal",
+      "year": 2020,
+      "blurb": "A shot from a full short skit about making a burger with elements of horror"
+    },
+    {
+      "image": "/assets/uploads/img29.png",
+      "title": "BossFight",
+      "year": 2023,
+      "blurb": "a Create with Clint Render challenge, inspired by One Piece - made in Eevee",
+      "videoFile": "/assets/uploads/vid_01.mp4"
+    },
+    {
+      "image": "/assets/uploads/img13.png",
+      "year": 2020,
+      "title": "Mandle Adventure",
+      "blurb": "Recursive Shader Test"
+    },
+    {
+      "image": "/assets/uploads/img10.png",
+      "year": 2019,
+      "title": "What A View!",
+      "blurb": "Earth Atmosphere Render test"
+    },
+    {
+      "image": "/assets/uploads/img14.png",
+      "title": "Movement Mouse",
+      "year": 2020,
+      "blurb": "Absurd Product design - The movement mouse, the only device you need for all your maneuvering needs!"
+    }
+  ]
+}
