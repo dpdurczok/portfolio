@@ -6,36 +6,64 @@
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- 1) Tell Decap NOT to auto-load /admin/config.yml -->
+    <!-- 1) prevent auto-fetch of /admin/config.yml -->
     <script>window.CMS_MANUAL_INIT = true;</script>
 
-    <!-- 2) Load Decap -->
+    <!-- 2) load Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
 
-    <!-- 3) Single, clean CMS.init with unique collection names -->
+    <!-- 3) bypass native confirm() which can be blocked in sandboxed contexts -->
+    <script>
+      (function () {
+        function overrideConfirm(win) {
+          try {
+            const native = win.confirm;
+            win.confirm = function (msg) {
+              try { console.log('Decap confirm:', msg); } catch (e) {}
+              return true; // auto-accept
+            };
+          } catch (e) {}
+        }
+        // top window
+        overrideConfirm(window);
+        // also patch iframes (e.g., preview)
+        const mo = new MutationObserver(() => {
+          document.querySelectorAll('iframe').forEach((f) => {
+            try { if (f.contentWindow && f.contentWindow.confirm !== true) overrideConfirm(f.contentWindow); } catch (e) {}
+          });
+        });
+        mo.observe(document.documentElement, { childList: true, subtree: true });
+      })();
+    </script>
+
+    <!-- 4) your CMS config (inline) -->
     <script>
       CMS.init({
         config: {
+          // If you want to skip the editorial workflow (no extra confirm step), set:
+          // publish_mode: "simple",
           publish_mode: "editorial_workflow",
+
           backend: {
             name: "github",
             repo: "dpdurczok/portfolio",
             branch: "main",
-            base_url: "https://u07fwuovdf.execute-api.us-east-1.amazonaws.com", // <-- your API base
+            base_url: "https://u07fwuovdf.execute-api.us-east-1.amazonaws.com",
             auth_endpoint: "/auth"
           },
+
           media_folder: "public/assets/uploads",
           public_folder: "/assets/uploads",
 
           collections: [
             {
-              name: "art",               /* UNIQUE */
+              name: "art",
               label: "Art Projects",
               files: [
                 {
                   file: "src/content/art.json",
                   label: "Art Projects",
-                  name: "art_items",     /* UNIQUE */
+                  name: "art_items",
                   format: "json",
                   fields: [
                     {
@@ -59,13 +87,13 @@
             },
 
             {
-              name: "jobs",              /* UNIQUE */
+              name: "jobs",
               label: "Job Projects",
               files: [
                 {
                   file: "src/content/jobs.json",
                   label: "Job Projects",
-                  name: "job_items",     /* UNIQUE */
+                  name: "job_items",
                   format: "json",
                   fields: [
                     {
@@ -89,13 +117,13 @@
             },
 
             {
-              name: "games",             /* UNIQUE */
+              name: "games",
               label: "Games",
               files: [
                 {
                   file: "src/content/games.json",
                   label: "Games",
-                  name: "game_items",    /* UNIQUE */
+                  name: "game_items",
                   format: "json",
                   fields: [
                     {
