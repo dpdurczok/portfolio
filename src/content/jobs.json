@@ -8,11 +8,11 @@
       "videoFile": "/assets/uploads/vid64.mp4"
     },
     {
-      "title": "Golden Heart",
-      "image": "/assets/uploads/img63.png",
-      "videoFile": "/assets/uploads/vid52.mp4",
-      "blurb": "Wedding Idea Visualization",
-      "year": 2024
+      "videoFile": "/assets/uploads/vid35.mp4",
+      "image": "/assets/uploads/img40.png",
+      "title": "Gummy Bear Mockup",
+      "year": 2024,
+      "blurb": "Mock Up video Render for a social media post"
     },
     {
       "title": "Teatro Teaser 2025",
@@ -129,11 +129,11 @@
       "blurb": "Mock Up video Render for a social media post"
     },
     {
-      "videoFile": "/assets/uploads/vid35.mp4",
-      "image": "/assets/uploads/img40.png",
-      "title": "Gummy Bear Mockup",
-      "year": 2024,
-      "blurb": "Mock Up video Render for a social media post"
+      "title": "Golden Heart",
+      "image": "/assets/uploads/img63.png",
+      "videoFile": "/assets/uploads/vid52.mp4",
+      "blurb": "Wedding Idea Visualization",
+      "year": 2024
     }
   ]
 }
