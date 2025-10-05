@@ -75,6 +75,19 @@
       "blurb": "Unfinalized Mock up for a client - social media post to increase company familiarity",
       "image": "/assets/uploads/img71.png",
       "videoFile": "/assets/uploads/vid58.mp4"
+    },
+    {
+      "title": "Easter Basket",
+      "image": "/assets/uploads/easterbasket.png",
+      "year": 2025,
+      "blurb": "Social Media Mock Up post for Easter"
+    },
+    {
+      "title": "Flower Bloom",
+      "year": 2025,
+      "blurb": "Social Media Post / Collaboration with 2d Artist",
+      "image": "/assets/uploads/flowerbloom.png",
+      "videoFile": "/assets/uploads/flowerbloom.mp4"
     }
   ]
 }
