@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "title": "Peaks",
+      "year": 2025,
+      "blurb": "University Project",
+      "image": "/assets/uploads/cover.png",
+      "videoFile": "/assets/uploads/peaks_credits_compressed3-1-.mp4"
+    },
+    {
+      "image": "/assets/uploads/img29.png",
+      "title": "BossFight",
+      "year": 2023,
+      "blurb": "a Create with Clint Render challenge, inspired by One Piece - made in Eevee",
+      "videoFile": "/assets/uploads/vid_01.mp4"
+    },
+    {
       "image": "/assets/uploads/img07.png",
       "title": "A Lost Battery",
       "year": 2020,
@@ -106,13 +120,6 @@
       "title": "A Delicious Meal",
       "year": 2020,
       "blurb": "A shot from a full short skit about making a burger with elements of horror"
-    },
-    {
-      "image": "/assets/uploads/img29.png",
-      "title": "BossFight",
-      "year": 2023,
-      "blurb": "a Create with Clint Render challenge, inspired by One Piece - made in Eevee",
-      "videoFile": "/assets/uploads/vid_01.mp4"
     },
     {
       "image": "/assets/uploads/img13.png",
