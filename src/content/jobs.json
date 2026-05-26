@@ -15,6 +15,18 @@
       "blurb": "Mock Up video Render for a social media post"
     },
     {
+      "title": "Alchemical Teddy Bear",
+      "year": 2024,
+      "videoFile": "/assets/uploads/labteddy.mp4",
+      "image": "/assets/uploads/labteddy_thumbnail.png"
+    },
+    {
+      "title": "Alchemical Teddy Bear - Easter Edittion",
+      "year": 2025,
+      "videoFile": "/assets/uploads/teddyeaster.mp4",
+      "image": "/assets/uploads/easteredition-thumbnail.png"
+    },
+    {
       "title": "Teatro Teaser 2025",
       "blurb": "Social media render for Teatro's 2025 Secret Garden Dinner show in Munich. Event Teaser",
       "year": 2025,
@@ -83,6 +95,17 @@
       "blurb": "Social Media Mock Up post for Easter"
     },
     {
+      "title": "Gym clothing Mockup",
+      "videoFile": "/assets/uploads/womanscothing.mp4",
+      "image": "/assets/uploads/womensclothingmockup.png"
+    },
+    {
+      "videoFile": "/assets/uploads/shirmockup.mp4",
+      "image": "/assets/uploads/shirtmockup_thumbnail.png",
+      "title": "Housecoat Dissolve mockup ",
+      "year": 2025
+    },
+    {
       "title": "Flower Bloom",
       "year": 2025,
       "blurb": "Social Media Post / Collaboration with 2d Artist",
@@ -129,11 +152,34 @@
       "blurb": "Mock Up video Render for a social media post"
     },
     {
+      "title": "Car sense Mockup",
+      "image": "/assets/uploads/carsense.png"
+    },
+    {
+      "title": "Cloud Wine glass",
+      "year": 2025,
+      "blurb": "A contemporary glass mockup",
+      "videoFile": "/assets/uploads/cloudwine.mp4",
+      "image": "/assets/uploads/cloudwine_thumn.png"
+    },
+    {
       "title": "Golden Heart",
       "image": "/assets/uploads/img63.png",
       "videoFile": "/assets/uploads/vid52.mp4",
       "blurb": "Wedding Idea Visualization",
       "year": 2024
+    },
+    {
+      "title": "Briefcase Mockup",
+      "image": "/assets/uploads/briefcase.png"
+    },
+    {
+      "title": "Pen Mockup",
+      "image": "/assets/uploads/pen_mockup.png"
+    },
+    {
+      "title": "ZenityWall Visualization",
+      "image": "/assets/uploads/zenitachairwall.png"
     }
   ]
 }
