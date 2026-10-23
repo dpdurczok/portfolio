@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "image": "/assets/uploads/scientist.png",
+      "title": "Scientis model",
+      "year": 2026,
+      "blurb": "Custom designed and made character model"
+    },
+    {
       "title": "Peaks",
       "year": 2025,
       "blurb": "University Project, Autobiography without using my own likeness \nFor High Res: https://youtu.be/sMRufa1Z7PI",
