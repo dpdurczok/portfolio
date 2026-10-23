@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "image": "/assets/uploads/scientist.png",
+      "title": "Scientis model",
+      "year": 2026,
+      "blurb": "Custom designed and made character model"
+    },
+    {
+      "title": "Jelly Dance",
+      "year": 2019,
+      "image": "/assets/uploads/img08.png",
+      "blurb": "Weekly challenge winner at Create with Clint"
+    },
+    {
       "title": "Peaks",
       "year": 2025,
       "blurb": "University Project, Autobiography without using my own likeness \nFor High Res: https://youtu.be/sMRufa1Z7PI",
@@ -14,18 +26,6 @@
       "year": 2023,
       "blurb": "a Create with Clint Render challenge, inspired by One Piece - made in Eevee",
       "videoFile": "/assets/uploads/vid_01.mp4"
-    },
-    {
-      "image": "/assets/uploads/img07.png",
-      "title": "A Lost Battery",
-      "year": 2020,
-      "blurb": "Dixit Inspired Render"
-    },
-    {
-      "title": "Jelly Dance",
-      "year": 2019,
-      "image": "/assets/uploads/img08.png",
-      "blurb": "Weekly challenge winner at Create with Clint"
     },
     {
       "title": "Dry Bones",
@@ -52,16 +52,16 @@
       "blurb": "Architectural test"
     },
     {
+      "image": "/assets/uploads/img07.png",
+      "title": "A Lost Battery",
+      "year": 2020,
+      "blurb": "Dixit Inspired Render"
+    },
+    {
       "title": "Dead Deserts",
       "year": 2020,
       "blurb": "Weekly challenge winner at Create with Clint",
       "image": "/assets/uploads/img24.png"
-    },
-    {
-      "image": "/assets/uploads/img04.png",
-      "title": "Sky Adventures",
-      "year": 2021,
-      "blurb": "Inspired by my own game Chains"
     },
     {
       "title": "Posąg",
@@ -70,10 +70,10 @@
       "image": "/assets/uploads/posąg.png"
     },
     {
-      "title": "Doppelgängers",
-      "year": 2026,
-      "blurb": "School university project \"Autoportret\"",
-      "image": "/assets/uploads/facemap.png"
+      "image": "/assets/uploads/img04.png",
+      "title": "Sky Adventures",
+      "year": 2021,
+      "blurb": "Inspired by my own game Chains"
     },
     {
       "image": "/assets/uploads/img16.png",
@@ -139,6 +139,12 @@
       "year": 2020,
       "title": "Mandle Adventure",
       "blurb": "Recursive Shader Test"
+    },
+    {
+      "title": "Doppelgängers",
+      "year": 2026,
+      "blurb": "School university project \"Autoportret\"",
+      "image": "/assets/uploads/facemap.png"
     },
     {
       "image": "/assets/uploads/img10.png",
